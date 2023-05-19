@@ -21,13 +21,24 @@ def wait_input(driver):
         pass
 
 
-def transport_calc(driver, input_file, output_file, error_search):
+def pre_list(output_file):
+    prelist=[]
+    inf = open(output_file, 'r', encoding='utf-8')
+    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    for line in rdr:
+        prelist.append(line[0]) #index 수정
+
+    inf.close()
+    return prelist
+    
+
+def transport_calc(driver, input_file, output_file, error_search, prelist):
 
     airport=['Narita Airport Transport, 1-1 후루고메 나리타시 Chiba 286-0104 일본', '하네다국제공항']
 
     inf = open(input_file, 'r', encoding='utf-8')
     rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
-    outf = open(output_file, 'w', encoding='utf-8')
+    outf = open(output_file, 'a', encoding='utf-8')
     wr = csv.writer(outf)
     #대중교통으로 변경
     search_box_from = driver.find_element(By.XPATH, '//*[@id="omnibox-directions"]/div/div[2]/div/div/div/div[3]/button').click()
@@ -45,45 +56,46 @@ def transport_calc(driver, input_file, output_file, error_search):
 
     for line in rdr:
         accommodation=line[0] #index 수정 필요
-        new=line
-    
-        search_box_from.send_keys(airport[0])
+        if accommodation not in prelist:
+            new=line
+        
+            search_box_from.send_keys(airport[0])
 
-        search_box_to.clear()
-        search_box_to.send_keys(accommodation) 
+            search_box_to.clear()
+            search_box_to.send_keys(accommodation) 
 
-        search_box_to.send_keys(Keys.ENTER)
-        time.sleep(3.0)
-
-        try:
-            time_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
-            money_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
-            time_walk0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
-            time.sleep(2.0)
-
-            search_box_from.clear()
-            search_box_from.send_keys(airport[1])
             search_box_to.send_keys(Keys.ENTER)
-
             time.sleep(3.0)
 
-            time_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
-            money_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
-            time_walk1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
+            try:
+                time_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
+                money_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
+                time_walk0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
+                time.sleep(2.0)
 
-            time.sleep(2.0)
-            
-            new+=[time_cost0, money_cost0, time_walk0, time_cost1, money_cost1, time_walk1]
-            wr.writerow(new)
+                search_box_from.clear()
+                search_box_from.send_keys(airport[1])
+                search_box_to.send_keys(Keys.ENTER)
 
-            #parsing
-            #result_time.append(time_cost)
-            #result_money.append(money_cost)
-            #result_walk.append(time_walk)
+                time.sleep(3.0)
 
-        except:
-            error_search.append(accommodation)
-            print('failed')
+                time_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
+                money_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
+                time_walk1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
+
+                time.sleep(2.0)
+                
+                new+=[time_cost0, money_cost0, time_walk0, time_cost1, money_cost1, time_walk1]
+                wr.writerow(new)
+
+                #parsing
+                #result_time.append(time_cost)
+                #result_money.append(money_cost)
+                #result_walk.append(time_walk)
+
+            except:
+                error_search.append(accommodation)
+                print('failed')
             
     inf.close()
     outf.close()
@@ -112,6 +124,8 @@ if __name__ == "__main__":
     
     # driver , link = selenium_setting() # selenium사용을 위한 셋팅
 
+    prelist=pre_list('./src/test_out.csv')
+
     error_search = []
-    transport_calc(driver, './src/test.csv', './src/test_out.csv', error_search)
+    transport_calc(driver, './src/test.csv', './src/test_out.csv', error_search, prelist)
     driver.quit()
