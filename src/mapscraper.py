@@ -59,7 +59,6 @@ def transport_calc(driver, input_file, output_file, error_search):
             time_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
             money_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
             time_walk0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
-            print(accommodation, airport[0], time_cost0, money_cost0, time_walk0)
             time.sleep(2.0)
 
             search_box_from.clear()
@@ -71,7 +70,6 @@ def transport_calc(driver, input_file, output_file, error_search):
             time_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
             money_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
             time_walk1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
-            print(accommodation, airport[1], time_cost1, money_cost1, time_walk1)
 
             time.sleep(2.0)
             
