@@ -88,11 +88,6 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
                 new+=[time_cost0, money_cost0, time_walk0, time_cost1, money_cost1, time_walk1]
                 wr.writerow(new)
 
-                #parsing
-                #result_time.append(time_cost)
-                #result_money.append(money_cost)
-                #result_walk.append(time_walk)
-
             except:
                 error_search.append(accommodation)
                 print('failed')
@@ -100,6 +95,18 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
     inf.close()
     outf.close()
 
+def init_list(input_file, output_file):
+    inf = open(input_file, 'r', encoding='utf-8')
+    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    for line in rdr:
+        indline=line
+        break #index line만 가져오기
+    indline+=['Time_Cost_NRT', 'Money_Cost_NRT', 'Time_Walk_NRT','Time_Cost_HND', 'Money_Cost_HND', 'Time_Walk_HND']
+    outf = open(output_file, 'w', encoding='utf-8')
+    wr = csv.writer(outf)
+    wr.writerow(indline)
+    outf.close()
+    inf.close()
 
 if __name__ == "__main__":
 
@@ -124,8 +131,13 @@ if __name__ == "__main__":
     
     # driver , link = selenium_setting() # selenium사용을 위한 셋팅
 
-    prelist=pre_list('./src/test_out.csv')
+    input_file='.csv'
+    output_file='.csv'
+
+    prelist=pre_list(output_file)
+    if len(pre_list) <=1:
+        init_list(input_file, output_file)
 
     error_search = []
-    transport_calc(driver, './src/test.csv', './src/test_out.csv', error_search, prelist)
+    transport_calc(driver, input_file, output_file, error_search, prelist)
     driver.quit()
