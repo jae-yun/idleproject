@@ -1,4 +1,4 @@
-Date, Day, Airline, Departure time, Departure airport, Arrival time, Arrival airport, Flight info, Flight time, Price
+Date,Day,Airline,Departure time,Departure airport,Arrival time,Arrival airport,Flight info,Flight time,Price
 06.01,목,ANA,19:55,GMP,22:15,HND,직항,02시간 20분,"329,700"
 06.01,목,일본항공,07:50,GMP,09:55,HND,직항,02시간 05분,"331,100"
 06.01,목,일본항공,19:20,GMP,21:30,HND,직항,02시간 10분,"331,100"
