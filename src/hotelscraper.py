@@ -215,8 +215,11 @@ if __name__ == "__main__":
     wait_input(driver)
 
     #아래 경로는 환경마다 수정
-    input_file='./src/hotel.csv'
-    output_file='./src/hotel_tmp.csv'
+    #input_file='./src/hotel.csv'
+    #output_file='./src/hotel_tmp.csv'
+    input_file='C:/Users/lovel/Desktop/project4/teampj/hotel2.csv'  
+    output_file='C:/Users/lovel/Desktop/project4/teampj/hotel_tmp.csv'   
+
 
     #이미 정보를 수집한 호텔들을 모아두는 리스트
     prelist=pre_list(input_file)
