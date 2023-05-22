@@ -12,6 +12,22 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
 
+yen=9.56
+
+def timedecomp(txt):
+    numbers = re.findall(r'\d+', txt)
+    numbers = list(map(int, numbers))
+    id1=txt.find('시간')
+    id2=txt.find('분')
+    res=0
+    if id1!=-1 and id2!=-1:
+        res=numbers[0]*60+numbers[1]
+    elif id1==-1 and id2!=-1:
+        res=numbers[0]
+    elif id1!=-1 and id2==-1:
+        res=numbers[0]*60
+    return res
+
 def wait_input(driver):
     try:
         element = WebDriverWait(driver, 10).until(
@@ -24,7 +40,7 @@ def wait_input(driver):
 def pre_list(output_file):
     prelist=[]
     inf = open(output_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_NONE)
+    rdr = csv.reader(inf)
     for line in rdr:
         prelist.append(line[0])
 
@@ -37,7 +53,7 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
     airport=['Narita Airport Transport, 1-1 후루고메 나리타시 Chiba 286-0104 일본', '하네다국제공항']
 
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_NONE)
+    rdr = csv.reader(inf)
     outf = open(output_file, 'a', encoding='utf-8')
     wr = csv.writer(outf)
     #대중교통으로 변경
@@ -69,8 +85,13 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
 
             try:
                 time_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
+                time_cost0=timedecomp(time_cost0)
                 money_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
+                money_cost0=int(re.sub(r'[^0-9]', '', money_cost0))*yen
+                money_cost0=round(money_cost0)
                 time_walk0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
+                time_walk0=timedecomp(time_walk0)
+
                 time.sleep(2.0)
 
                 search_box_from.clear()
@@ -80,24 +101,27 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
                 time.sleep(3.0)
 
                 time_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
+                time_cost1=timedecomp(time_cost1)
                 money_cost1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[1]').text
+                money_cost1=int(re.sub(r'[^0-9]', '', money_cost1))*yen
+                money_cost1=round(money_cost1)
                 time_walk1=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[3]/span[2]').text
-
+                time_walk1=timedecomp(time_walk1)
                 time.sleep(2.0)
-                
+
                 new+=[time_cost0, money_cost0, time_walk0, time_cost1, money_cost1, time_walk1]
                 wr.writerow(new)
 
             except:
                 error_search.append(accommodation)
-                print('failed')
+                print(accommodation, 'failed')
             
     inf.close()
     outf.close()
 
 def init_list(input_file, output_file):
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_NONE)
+    rdr = csv.reader(inf)
     for line in rdr:
         indline=line
         break #index line만 가져오기
@@ -131,7 +155,7 @@ if __name__ == "__main__":
     
     # driver , link = selenium_setting() # selenium사용을 위한 셋팅
 
-    input_file='./idleproject/src/hotel3.csv'
+    input_file='./idleproject/src/hotel.csv'
     output_file='./idleproject/src/hotel_plus_metro.csv'
 
     prelist=pre_list(output_file)

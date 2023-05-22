@@ -13,6 +13,7 @@ from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
 
 prelist=[]
+changelist={}
 
 def to_coord(date):
     #date에서 week, 요일 추출
@@ -34,7 +35,8 @@ def crawl_hotel(driver, input_file, prelist):
     newprice={}
     #현재 csv파일의 column 길이 추출 - 신규 데이터용 pad 만들기
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    #rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf)
     for line in rdr:
         length = len(line)-3
         break #index line만 가져오기
@@ -49,56 +51,59 @@ def crawl_hotel(driver, input_file, prelist):
 
         for i in range(len(hotel_links)):
             hotel_links = driver.find_elements(By.CLASS_NAME, "e13098a59f") # 호텔 링크들을 다시 수집 (새로고침 때문에 stale element가 될 수 있으므로)
+            hotel_names = driver.find_elements(By.CLASS_NAME, "a23c043802") #fcab3ed991 a23c043802
+            hotel_prices = driver.find_elements(By.CLASS_NAME, 'e729ed5ab6')# fcab3ed991 fbd1d3018c e729ed5ab6
             main_window = driver.current_window_handle # 기존 탭 저장
             hotel_url = hotel_links[i].get_attribute("href") # 호텔 링크 url가져오기
             #print(hotel_url)
+
+            hotel_name = hotel_names[i].text
+            hotel_name=re.sub(',', ' ', hotel_name)
+            hotel_price = hotel_prices[i].text
+            hotel_price = int(re.sub(r'[^0-9]', '', hotel_price))
+            newprice[hotel_name]=hotel_price
+            if hotel_name not in prelist:
                 
-            driver.execute_script("window.open('');") # 새 탭 열기
-            driver.switch_to.window(driver.window_handles[1]) # 새 탭으로 전환
-            driver.get(hotel_url) # 새 탭에서 url 로드
-            time.sleep(5)
-            # ActionChains(driver).key_down(Keys.CONTROL).click(hotel_links[i]).key_up(Keys.CONTROL).perform()  # 호텔 클릭 시 새 탭으로 열기
-            # time.sleep(10)
+                driver.execute_script("window.open('');") # 새 탭 열기
+                driver.switch_to.window(driver.window_handles[1]) # 새 탭으로 전환
+                driver.get(hotel_url) # 새 탭에서 url 로드
+                time.sleep(2)
+                # ActionChains(driver).key_down(Keys.CONTROL).click(hotel_links[i]).key_up(Keys.CONTROL).perform()  # 호텔 클릭 시 새 탭으로 열기
+                # time.sleep(10)
 
-            if len(driver.window_handles) > 1: # 탭이 1개 보다 많을 때 탭 전환 (기존 리스팅 되어있는 탭 외에 새 탭으로 개별 호텔 페이지가 열려야함)
-            #     driver.switch_to.window(driver.window_handles[1])
+                if len(driver.window_handles) > 1: # 탭이 1개 보다 많을 때 탭 전환 (기존 리스팅 되어있는 탭 외에 새 탭으로 개별 호텔 페이지가 열려야함)
+                #     driver.switch_to.window(driver.window_handles[1])
 
-                try:
-                    WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "d2fee87262")))
-                    time.sleep(5)
-                    
-                    hotel_name = driver.find_element(By.CLASS_NAME, "d2fee87262").text
-                    if hotel_name not in prelist:
-                        hotel_address = driver.find_element(By.CSS_SELECTOR, '.hp_address_subtitle.js-hp_address_subtitle.jq_tooltip').text
+                    try:
+                        WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "d2fee87262")))
+                        time.sleep(2)
                         
-                        #hotel_star_elements = str(driver.find_elements(By.XPATH, '//*[@id="hp_hotel_name"]/span'))
-                        #hotel_star = hotel_star_elements.count("b6dc9a9e69")
-                        '''                        
-                        try:
-                            hotel_star_elements = str(driver.find_elements(By.XPATH, '//*[@id="hp_hotel_name"]/span/span[1]/div/span/div/span'))
-                        except:
-                            hotel_star_elements = str(driver.find_elements(By.XPATH, '//*[@id="hp_hotel_name"]/span/span[2]/div/span/div/span'))
-                        finally:
-                            hotel_star = hotel_star_elements.count("b6dc9a9e69")
-                        '''
-                        hotel_score = driver.find_element(By.CSS_SELECTOR, '#js--hp-gallery-scorecard > a > div > div > div > div.b5cd09854e.d10a6220b4').text
-                        writer.writerow([hotel_name, hotel_address, hotel_score]+pad) #pad로 다른 데이터들과 길이 맞추기
-                        prelist.append(hotel_name)
-                        
-                    hotel_price = driver.find_element(By.CLASS_NAME, 'bui-price-display__value').text
-                    newprice[hotel_name]=hotel_price
+                        hotel_name2 = driver.find_element(By.CLASS_NAME, "d2fee87262").text
+                        hotel_name2=re.sub(',', ' ', hotel_name2)
+
+                        if hotel_name2 in prelist:
+                            changelist[hotel_name2]=hotel_name
+                            prelist.append(hotel_name)
+
+                        else:
+                            hotel_address = driver.find_element(By.CSS_SELECTOR, '.hp_address_subtitle.js-hp_address_subtitle.jq_tooltip').text
+                            hotel_address=re.sub(',', ' ', hotel_address)
+
+                            hotel_score = driver.find_element(By.CSS_SELECTOR, '#js--hp-gallery-scorecard > a > div > div > div > div.b5cd09854e.d10a6220b4').text
+                            writer.writerow([hotel_name, hotel_address, hotel_score]+pad) #pad로 다른 데이터들과 길이 맞추기
+                            prelist.append(hotel_name)
 
 
 
-                except Exception as e: #예외처리 
-                    print(f"Error in getting info from hotel page: {e}")
+                    except Exception as e: #예외처리 
+                        print(f"Error in getting info from hotel page: {e}")
 
-                driver.close()
-                driver.switch_to.window(main_window) # 탭 전환
-            else:
-                print(f"Error: New tab did not open for hotel {i}")
+                    driver.close()
+                    driver.switch_to.window(main_window) # 탭 전환
+                else:
+                    print(f"Error: New tab did not open for hotel {i}")
 
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "dd023375f5")))
+                WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "dd023375f5")))
 
         # try: # 다음 페이지로 이동 (기존코드)
         #     next_page_button = driver.find_element(By.XPATH, '//*[@id="search_results_table"]/div[2]/div/div/div[4]/div[2]/nav/div/div[3]/button') # 페이지 넘기기
@@ -129,21 +134,30 @@ def crawl_hotel(driver, input_file, prelist):
 def update_price(input_file, output_file, date, newprice):
     #part2: 가격 업데이트
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf)
     outf = open(output_file, 'w', encoding='utf-8')
     wr = csv.writer(outf)
     #index 작성
     newprice["Hotel Name"]=date
 
     for line in rdr:
-        acc_name=line[0]
-        if acc_name in newprice.keys():
-            new=line+[newprice[acc_name]]
-            wr.writerow(new)
+        if not line:
+            continue  # 빈 줄일 경우 건너뜁니다
+        if len(line) > 0:
+            acc_name=line[0]
+            if acc_name in newprice.keys():
+                new=line+[newprice[acc_name]]
+                wr.writerow(new)
+            elif acc_name in changelist.keys():
+                new_name=changelist[acc_name]
+                new=[new_name]+line[1:]+[newprice[new_name]]
+                wr.writerow(new)
+            else:
+                new=line+[0]
+                wr.writerow(new)
         else:
-            new=line+[0]
-            wr.writerow(new)
-   
+            wr.writerow(line)
+
     inf.close()
     outf.close()
 
@@ -160,7 +174,7 @@ def wait_input(driver):
 def pre_list(output_file):
     prelist=[]
     inf = open(output_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf) 
     for line in rdr:
         if line:  # 리스트가 비어 있지 않은지 확인(index error 발생해서 추가(임나래))
             prelist.append(line[0])
@@ -176,7 +190,7 @@ def init_list(input_file):
 
 def get_date(input_file):
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf)
     for line in rdr:
         indline=line
         break #index line만 가져오기 
@@ -196,7 +210,7 @@ def get_date(input_file):
 def overwrite(input_file, output_file):
     #다음 이터레이션을 위해 결과파일을 입력파일에 덮어씌움
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf)
     outf = open(output_file, 'w', encoding='utf-8')
     wr = csv.writer(outf)
     for line in rdr:
@@ -215,8 +229,8 @@ if __name__ == "__main__":
     wait_input(driver)
 
     #아래 경로는 환경마다 수정
-    input_file='./src/hotel.csv'
-    output_file='./src/hotel_tmp.csv'
+    input_file='./idleproject/src/hotel.csv'
+    output_file='./idleproject/src/hotel_tmp.csv'
     #input_file='C:/Users/lovel/Desktop/project4/teampj/hotel2.csv'  
     #output_file='C:/Users/lovel/Desktop/project4/teampj/hotel_tmp.csv'   
 
