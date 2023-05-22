@@ -100,16 +100,27 @@ def crawl_hotel(driver, input_file, prelist):
 
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "dd023375f5")))
 
-        try: # 다음 페이지로 이동
-            next_page_button = driver.find_element(By.XPATH, '//*[@id="search_results_table"]/div[2]/div/div/div[4]/div[2]/nav/div/div[3]/button') # 페이지 넘기기
-            if next_page_button:
+        # try: # 다음 페이지로 이동 (기존코드)
+        #     next_page_button = driver.find_element(By.XPATH, '//*[@id="search_results_table"]/div[2]/div/div/div[4]/div[2]/nav/div/div[3]/button') # 페이지 넘기기
+        #     if next_page_button:
+        #         next_page_button.click()
+        #         time.sleep(5)
+        #     else:
+        #         break
+        # except NoSuchElementException:
+        #     file.close()
+        #     return newprice
+        
+        #아래는 마지막페이지에서 무한루프 막기 위한 수정코드 
+        try: 
+            next_page_button = driver.find_element(By.XPATH, '//*[@id="search_results_table"]/div[2]/div/div/div[4]/div[2]/nav/div/div[3]/button')
+            if next_page_button.get_attribute("disabled"):  # 다음 페이지 버튼의 disabled 속성 확인
+                break
+            else:
                 next_page_button.click()
                 time.sleep(5)
-            else:
-                break
         except NoSuchElementException:
-            file.close()
-            return newprice
+            break
 
     file.close()
     return newprice
@@ -151,7 +162,8 @@ def pre_list(output_file):
     inf = open(output_file, 'r', encoding='utf-8')
     rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
     for line in rdr:
-        prelist.append(line[0])
+        if line:  # 리스트가 비어 있지 않은지 확인(index error 발생해서 추가(임나래))
+            prelist.append(line[0])
 
     inf.close()
     return prelist
@@ -172,6 +184,8 @@ def get_date(input_file):
     inf.close()
     if date=="Hotel Score": #날짜 데이터가 없다면 601을 출력
         date=600
+    else:
+        date=int(date)
 
     if date==630:
         date=701
@@ -200,6 +214,7 @@ if __name__ == "__main__":
     driver.get(url)
     wait_input(driver)
 
+    #아래 경로는 환경마다 수정
     input_file='./src/hotel.csv'
     output_file='./src/hotel_tmp.csv'
 
@@ -236,38 +251,110 @@ if __name__ == "__main__":
     driver.find_element(By.XPATH, '//*[@id="calendar-searchboxdatepicker"]/div/div[1]/button').click()  # 달력 페이지 넘기기 
     time.sleep(1)
 
+    first_run = True
 
     for date in date_range:
         wait = WebDriverWait(driver, 15)
-        #  체크인날짜 변경
-        m, w,d = to_coord(date)
-        checkin_xpath = f'//*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[{m}]/table/tbody/tr[{w}]/td[{d}]'
-        change_checkin = wait.until(EC.element_to_be_clickable((By.XPATH, checkin_xpath))).click()
+        
+        if first_run:
+            # 체크인날짜 변경
+            m, w, d = to_coord(date)
+            checkin_xpath = f'//*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[{m}]/table/tbody/tr[{w}]/td[{d}]'
+            change_checkin = wait.until(EC.element_to_be_clickable((By.XPATH, checkin_xpath))).click()
 
-        if date==630:
-            next_date=701
+            if date == 630:
+                next_date = 701
+            else:
+                next_date = date + 1
+
+            # 체크아웃날짜 변경
+            m, w, d = to_coord(next_date)
+            checkout_xpath = f'//*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[{m}]/table/tbody/tr[{w}]/td[{d}]'
+            change_checkout = wait.until(EC.element_to_be_clickable((By.XPATH, checkout_xpath))).click()
+
+            # 검색버튼 클릭
+            search_button = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id=":Ra9:"]')))
+            search_button.send_keys(Keys.ENTER)
+            time.sleep(10)
+
+            # 호텔 체크박스
+            # checkbox_xpath = '//*[@id="filter_group_ht_id_:R24q:"]/div[10]/label/span[2]' # 빌라 체크박스 경로(리스팅 적은 걸로 테스트용)
+            checkbox_xpath = '//*[@id="filter_group_ht_id_:R24q:"]/div[4]/label/span[2]' # 호텔 체크박스 경로
+            hotel_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH, checkbox_xpath)))
+            hotel_checkbox.click()
+            time.sleep(10)
+
+            # 테스트용 옵션! (15-20 예산 선택(케이스2개라서!))
+            # highprice_checkbox_xpath = '//*[@id="filter_group_pri_:Rcq:"]/div[2]/div[3]/label/span[2]'
+            # highprice_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH, highprice_checkbox_xpath)))
+            # highprice_checkbox.click()
+            # time.sleep(10)
+
+            first_run = False
         else:
-            next_date=date+1
+            change_date_xpath = '//*[@id="b2searchresultsPage"]/div[3]/div/div/div/form/div[1]/div[2]/div/div[1]' # 날짜 변경
+            change_date = wait.until(EC.element_to_be_clickable((By.XPATH, change_date_xpath))).click()
+            
+            # 체크인날짜 변경
+            m, w, d = to_coord(date)
+            checkin_xpath = f'//*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[1]/table/tbody/tr[{w}]/td[{d}]'
+            change_checkin = wait.until(EC.element_to_be_clickable((By.XPATH, checkin_xpath))).click()
 
-        # 체크아웃날짜 변경
-        m, w,d = to_coord(next_date)
-        checkout_xpath = f'//*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[{m}]/table/tbody/tr[{w}]/td[{d}]'
-        change_checkout = wait.until(EC.element_to_be_clickable((By.XPATH, checkout_xpath))).click()
-                
-        # 검색버튼 클릭 
-        #driver.find_element(By.XPATH, '//*[@id="b2searchresultsPage"]/div[3]/div/div/div/form/div[1]/div[4]/button').click() 
-        driver.find_element(By.XPATH, '//*[@id=":Ra9:"]').send_keys(Keys.ENTER)
-        time.sleep(10)   
+            if date == 630:
+                next_date = 701
+            else:
+                next_date = date + 1
 
-        # 호텔 체크박스 
-        driver.find_element(By.XPATH, '//*[@id="filter_group_ht_id_:R24q:"]/div[4]/label/span[2]').click() 
-        time.sleep(10)
+            # 체크아웃날짜 변경
+            m, w, d = to_coord(next_date)
+            checkout_xpath = f'//*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[1]/table/tbody/tr[{w}]/td[{d}]'
+            change_checkout = wait.until(EC.element_to_be_clickable((By.XPATH, checkout_xpath))).click()
 
-        # 여기서 크롤링코드 
-        newprice=crawl_hotel(driver, input_file, prelist)
+            # 검색버튼 클릭
+            search_button = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id=":Ra9:"]')))
+            search_button.send_keys(Keys.ENTER)
+            time.sleep(10)
+
+            
+            # 호텔 체크박스 #지우기
+            # hotel_checkbox_xpath = '//*[@id="filter_group_ht_id_:R24q:"]/div[10]/label/span[2]' # 빌라 체크박스 경로(리스팅 적은 걸로 테스트용)
+            # hotel_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH, hotel_checkbox_xpath)))
+            # hotel_checkbox.click()
+            # time.sleep(10)
+
+            # 테스트용 옵션! (15-20 예산 선택(케이스2개라서!))
+            # highprice_checkbox_xpath = '//*[@id="filter_group_pri_:Rcq:"]/div[2]/div[3]/label/span[2]'
+            # highprice_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH, highprice_checkbox_xpath)))
+            # highprice_checkbox.click()
+            # time.sleep(10)
+
+            # 호텔 체크박스 : 필터에서 호텔 선택
+            hotel_checkbox_xpath = '//*[@id="filter_group_ht_id_:R2cq:"]/div[4]/label/span[2]' 
+            hotel_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH, hotel_checkbox_xpath)))
+            hotel_checkbox.click()
+            time.sleep(5)
+
+        # 여기서 크롤링코드
+        newprice = crawl_hotel(driver, input_file, prelist)
         update_price(input_file, output_file, date, newprice)
-        overwrite(output_file, input_file) #기록된 결과를 다음 이터레이션을 위해 인풋 파일에 기록
-        time.sleep(10)
+        overwrite(output_file, input_file) # 기록된 결과를 다음 이터레이션을 위해 인풋 파일에 기록
 
         
     driver.quit()
+
+
+
+#코드 돌아가는 플로우:
+#크롤링이 오래걸리는 만큼 끊었다가 다시 하는 경우를 상정.
+#prelist로 이미 수집된 호텔들을 체크
+#get date로 며칠까지 크롤링이 완료되었던 것인지, 혹은 지금이 크롤링 시작인지 체크하여 다음 시작 날짜 설정
+
+#접속 후 크롤링(이부분에서 무한루프중...)
+#크롤링 도중에, prelist에 없는 호텔을 발견하면 점수까지 수집하여 호텔 리스트에 추가(날짜가 바뀌어도 점수가 바뀌지는 않으므로 다른 정보는 재수집할 필요 없음)
+#리스트 기재 여부와 상관없이 가격정보를 모두 딕셔너리 형태로 저장
+
+#update_price코드로 다음단계 진행. 임시파일을 열고, 
+#기존 파일의 각 행을 불러와 가격정보가 있다면 가격정보 추가, 없다면 0을 추가하여 임시파일에 기록
+#overwrite 코드를 통해 임시파일을 기존파일에 덮어씌움. 이것으로 기존 파일은 새로운 호텔/새로운 가격정보를 가지고 업데이트됨
+
+#날짜를 바꾸어 크롤링/update price/overwrite반복
