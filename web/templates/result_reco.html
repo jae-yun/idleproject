@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -32,7 +31,6 @@
           </div>
         </div>
     </nav>
-
     <main class="flex-shrink-0">
         <div class="container">
             <h1>1</h1>
@@ -41,43 +39,31 @@
 <!--            <p>설명하는 곳 2 <a href="/docs/5.0/examples/sticky-footer/">Link</a> 링크.</p>-->
         </div>
 
-        <form action="/recommend/result", method="POST">
+        {% if destination == "목적지 선택하기" %}
+        <div class="container">
+            <p>목적지를 입력하지 않았습니다. "다시하기"를 눌러 다시 입력해주세요.</p>
+        </div>
+
+        {% elif cost == "ex) 500000" %}
+        <div class="container">
+            <p>예산란에는 숫자만 입력해야합니다. "다시하기"를 눌러 다시 입력해주세요.</p>
+        </div>
+
+        {% else %}
+        <div class="container">
+            <p>예측 결과 값입니다.</p>
+            <p>출발 날짜 : {{ date }}</p>
+            <p>목적지 : {{ destination }}</p>
+            <p>예상비용 : {{ cost }}</p>
+        </div>
+        {% endif %}
+
+        <form action="/recommend", method="GET">
             <div class="container">
-                <div class="input-group mb-3">
-                    <label for="date">날짜를 선택하세요:
-                        <input type="date"
-                             id="date"
-                             max="2023-07-31"
-                             min="2023-06-01"
-                             value="2023-06-01"
-                             name="date">
-                    </label>
-                </div>
-
-                <div class="input-group mb-3">
-                    <label class="col-sm-3 col-form-label">목적지를 선택하세요:</label>
-                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="destination">
-                        <option selected>목적지 선택하기</option>
-                        <option value="HND">HND</option>
-                        <option value="NRT">NRT</option>
-                    </select>
-                </div>
-
-                <div class="input-group mb-3">
-                    <label class="col-sm-3 col-form-label">예산을 입력해주세요: </label>
-                    <div class="col-sm-3">
-                        <input type='text' class="form-control" value="ex) 500000" name="cost">
-                    </div>
-                </div>
-
-                <div class="sticky-md-bottom">
-                <button type="submit" class="btn btn-outline-dark">추천하기</button>
-                </div>
-
+                <button type="submit" class="btn btn-outline-dark">다시하기</button>
             </div>
         </form>
     </main>
-
 
 </body>
 </html>
