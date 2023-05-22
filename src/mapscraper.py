@@ -24,9 +24,9 @@ def wait_input(driver):
 def pre_list(output_file):
     prelist=[]
     inf = open(output_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_NONE)
     for line in rdr:
-        prelist.append(line[0]) #index 수정
+        prelist.append(line[0])
 
     inf.close()
     return prelist
@@ -37,7 +37,7 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
     airport=['Narita Airport Transport, 1-1 후루고메 나리타시 Chiba 286-0104 일본', '하네다국제공항']
 
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_NONE)
     outf = open(output_file, 'a', encoding='utf-8')
     wr = csv.writer(outf)
     #대중교통으로 변경
@@ -55,7 +55,7 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
     search_box_to = driver.find_element(By.XPATH, '//*[@id="sb_ifc51"]/input')
 
     for line in rdr:
-        accommodation=line[0] #index 수정 필요
+        accommodation=line[0]
         if accommodation not in prelist:
             new=line
         
@@ -97,7 +97,7 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
 
 def init_list(input_file, output_file):
     inf = open(input_file, 'r', encoding='utf-8')
-    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_ALL)
+    rdr = csv.reader(inf, quotechar = "'", quoting = csv.QUOTE_NONE)
     for line in rdr:
         indline=line
         break #index line만 가져오기
@@ -116,11 +116,11 @@ if __name__ == "__main__":
     # 옵션 추가
 #    options.add_argument("--lang=en-GB")
 #    options.add_argument('disable-gpu') # GPU를 사용하지 않도록 설정
-    options.add_argument('headless')
+    #options.add_argument('headless')
 
     # 브라우저 옵션을 적용하여 드라이버 생성
-    #driver = webdriver.Chrome('chromedriver', options=options) 
-    driver = webdriver.Chrome('chromedriver') 
+    driver = webdriver.Chrome('chromedriver', options=options) 
+    #driver = webdriver.Chrome('chromedriver') 
 
 
     link = 'https://www.google.com/maps/dir/'
@@ -131,11 +131,11 @@ if __name__ == "__main__":
     
     # driver , link = selenium_setting() # selenium사용을 위한 셋팅
 
-    input_file='.csv'
-    output_file='.csv'
+    input_file='./idleproject/src/hotel3.csv'
+    output_file='./idleproject/src/hotel_plus_metro.csv'
 
     prelist=pre_list(output_file)
-    if len(pre_list) <=1:
+    if len(prelist) <=1:
         init_list(input_file, output_file)
 
     error_search = []

@@ -25,7 +25,7 @@ def to_coord(date):
         mkey=6
         m=2  
     w=(d+mkey-1)//7
-    d=mkey+d-2*w
+    d=mkey+d-7*w
     w+=1
     return m, w, d
 
@@ -245,7 +245,7 @@ if __name__ == "__main__":
     driver.find_element(By.XPATH, '//*[@id="indexsearch"]/div[2]/div/div/form/div[1]/div[1]/div/div').click() # 도시 검색창 클릭 
     time.sleep(1)
 
-    driver.find_element(By.XPATH, '//*[@id=":Ra9:"]').send_keys("신주쿠")  #검색창에 신주쿠 입력 
+    driver.find_element(By.XPATH, '//*[@id=":Ra9:"]').send_keys("시부야")  #검색창에 신주쿠 입력 
     time.sleep(1)
 
     driver.find_element(By.XPATH, '//*[@id="indexsearch"]/div[2]/div/div/form/div[1]/div[2]/div/div[1]/button[1]').click() # 날짜 선택창 클릭
