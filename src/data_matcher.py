@@ -101,21 +101,22 @@ def combination(f_list1,f_list2, a_list, cond): #bound=0이면 제약 없이 수
     rec_list=pd.DataFrame()
     cand_date=make_daterange(cond['Date_from'],cond['Date_to'])
 
+    ####### 데이터 추리기 과정
+    f_list1=f_list1[f_list1['Price'] <= cond['bound']/2]
+    f_list2=f_list2[f_list2['Price'] <= cond['bound']/2]
+    f_list1 = f_list1.sort_values(by=['Departure time'], axis=0).head(10) #이른 비행편 우선
+    f_list2 = f_list2.sort_values(by=['Departure time'], axis=0).tail(10) #늦은 비행편 우선
+    f_list2.rename(columns=lambda x: x+'_return', inplace=True)
 
     a_list['hotel cost']=0
-
     for date in cand_date:
         idx=str(date)
         a_list['hotel cost']+=a_list[idx]
-
-    f_list2.rename(columns=lambda x: x+'_return', inplace=True)
-    f_list1=f_list1[f_list1['Price'] <= cond['bound']/2]
-    f_list2=f_list2[f_list2['Price_return'] <= cond['bound']/2]
     a_list=a_list[0 < a_list['hotel cost']]
-
     a_list=a_list[a_list['hotel cost'] <= cond['bound']/2]
+    a_list = a_list.sort_values(by=['Hotel Score'], axis=0).tail(10) #높은 평점 우선
 
-    print('candidate num:',f_list1.shape[0]*f_list2.shape[0]*a_list.shape[0])
+
 
     for fidx1, flight1 in f_list1.iterrows():
         for fidx2, flight2 in f_list2.iterrows():
