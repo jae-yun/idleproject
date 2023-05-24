@@ -15,6 +15,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 prelist=[]
 changelist={}
 
+
+
 def to_coord(date):
     #date에서 week, 요일 추출
     m=date//100
@@ -188,7 +190,7 @@ def init_list(input_file):
     wr.writerow(["Hotel Name", "Hotel Address", "Hotel Score"]) #이터레이션이 돌면 날짜가 추가됨
     outf.close()
 
-def get_date(input_file):
+def get_date(input_file, startdate):
     inf = open(input_file, 'r', encoding='utf-8')
     rdr = csv.reader(inf)
     for line in rdr:
@@ -197,7 +199,7 @@ def get_date(input_file):
     date = indline[-1]
     inf.close()
     if date=="Hotel Score": #날짜 데이터가 없다면 601을 출력
-        date=600
+        date=startdate-1
     else:
         date=int(date)
 
@@ -228,9 +230,17 @@ if __name__ == "__main__":
     driver.get(url)
     wait_input(driver)
 
-    #아래 경로는 환경마다 수정
-    input_file='./idleproject/src/hotel.csv'
-    output_file='./idleproject/src/hotel_tmp.csv'
+    ############################ 사용자 환경에 맞춰 수정
+    filepath='./idleproject/src/'
+    startdate=601
+    searchkeyword='시부야'
+    ############################
+
+
+
+
+    input_file=filepath+'hotel.csv'
+    output_file=filepath+'hotel_tmp.csv'
     #input_file='C:/Users/lovel/Desktop/project4/teampj/hotel2.csv'  
     #output_file='C:/Users/lovel/Desktop/project4/teampj/hotel_tmp.csv'   
 
@@ -241,7 +251,7 @@ if __name__ == "__main__":
         init_list(input_file)
 
     #검색 시작 날짜 설정
-    init_date=get_date(input_file) 
+    init_date=get_date(input_file, startdate) 
     #검색 날짜 범위 설정
     if init_date < 631:
         date_range=[x for x in range(init_date, 631)]+[y for y in range(701, 731)]
@@ -259,7 +269,7 @@ if __name__ == "__main__":
     driver.find_element(By.XPATH, '//*[@id="indexsearch"]/div[2]/div/div/form/div[1]/div[1]/div/div').click() # 도시 검색창 클릭 
     time.sleep(1)
 
-    driver.find_element(By.XPATH, '//*[@id=":Ra9:"]').send_keys("시부야")  #검색창에 신주쿠 입력 
+    driver.find_element(By.XPATH, '//*[@id=":Ra9:"]').send_keys(searchkeyword)  
     time.sleep(1)
 
     driver.find_element(By.XPATH, '//*[@id="indexsearch"]/div[2]/div/div/form/div[1]/div[2]/div/div[1]/button[1]').click() # 날짜 선택창 클릭

@@ -72,16 +72,30 @@ def transport_calc(driver, input_file, output_file, error_search, prelist):
 
     for line in rdr:
         accommodation=line[0]
+        adr=line[1]
+        
+
         if accommodation not in prelist:
             new=line
         
             search_box_from.send_keys(airport[0])
 
             search_box_to.clear()
-            search_box_to.send_keys(accommodation) 
+            search_box_to.send_keys(adr) 
 
             search_box_to.send_keys(Keys.ENTER)
             time.sleep(3.0)
+
+            try:
+                time_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
+            except:
+                #주소 입력이 잘 되지 않으면 아래 코드로
+                adr2=adr.split('도쿄')[0]+' 일본'
+                search_box_to.clear()
+                search_box_to.send_keys(adr2) 
+
+                search_box_to.send_keys(Keys.ENTER)
+                time.sleep(3.0)
 
             try:
                 time_cost0=driver.find_element(By.XPATH, '//*[@id="section-directions-trip-0"]/div[1]/div/div[1]/div').text
@@ -155,8 +169,11 @@ if __name__ == "__main__":
     
     # driver , link = selenium_setting() # selenium사용을 위한 셋팅
 
-    input_file='./idleproject/src/hotel.csv'
-    output_file='./idleproject/src/hotel_plus_metro.csv'
+    ############################사용자 환경에 맞춰 수정
+    filepath='./idleproject/src/'
+
+    input_file=filepath+'hotel.csv'
+    output_file=filepath+'hotel_plus_metro.csv'
 
     prelist=pre_list(output_file)
     if len(prelist) <=1:
