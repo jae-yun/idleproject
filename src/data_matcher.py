@@ -107,9 +107,12 @@ def combination(f_list1,f_list2, a_list, cond): #bound=0이면 제약 없이 수
     for date in cand_date:
         idx=str(date)
         a_list['hotel cost']+=a_list[idx]
+
     f_list2.rename(columns=lambda x: x+'_return', inplace=True)
     f_list1=f_list1[f_list1['Price'] <= cond['bound']/2]
     f_list2=f_list2[f_list2['Price_return'] <= cond['bound']/2]
+    a_list=a_list[0 < a_list['hotel cost']]
+
     a_list=a_list[a_list['hotel cost'] <= cond['bound']/2]
 
     print('candidate num:',f_list1.shape[0]*f_list2.shape[0]*a_list.shape[0])
@@ -131,17 +134,18 @@ def combination(f_list1,f_list2, a_list, cond): #bound=0이면 제약 없이 수
                 elif flight2['Departure airport_return']=='NRT':
                     total_cost += flight2['Price_return']+acc['Money_Cost_NRT']
 
-
                 total_cost+=acc['hotel cost']
 
 
                 if total_cost <= cond['bound'] or cond['bound']==0:
                     new=pd.concat([flight1,flight2])
-                    new=pd.concat([new,acc[['Hotel Name','Hotel Address','Hotel Score', 'hotel cost']]])
+                    new=pd.concat([new,acc[['Hotel Name','Hotel Address','Hotel Score']]])
+                    new['hotel cost']=acc['hotel cost']
                     new['arrival_time']=arrival_time
                     new['walk_time']=walk_time
                     new['total_cost']=total_cost
                     rec_list=pd.concat([rec_list,new], axis=1)
+
 
     return rec_list.transpose()
 
@@ -205,9 +209,13 @@ def model(input_date1, input_date2, bound):
 
     rec_list=combination(f_list1, f_list2, a_list, cond)
     print('comb complete')
-    rec_list.sort_values(by=['Price'], axis=0)
-    best = rec_list.loc[0:9]
-    return best
+    try:
+        rec_list = rec_list.sort_values(by=['total_cost'], axis=0)
+        best = rec_list.head(10)
+        return best
+    except:
+        return 'No Result'
+    
 
 #bound 설정시 예산을 줬을 때 그 안에서 최적해를, 안주면 조건에 맞는 최적해 자체를 줌.
 
@@ -299,5 +307,5 @@ if __name__ == "__main__":
     print(pred_by_ml(601, 602, 'HND'))
     print(pred_by_ml(601, 602, 'NRT'))
 
-    best=model(601, 602, 400000)
+    best=model(601, 602, 500000)
     print(best)
