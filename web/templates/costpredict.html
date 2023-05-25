@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        .my-custom-mt {
+            margin-top: 6rem;
+        }
+        .my-custom-input {
+            max-width: 35%;
+        }
+        .navbar-dark .navbar-toggler {
+            border-color: #003382;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='%23003B95'%3e%3cpath stroke='none' d='M0 0h30v30H0z'/%3e%3cpath d='M4 7h16M4 15h16M4 23h16'/%3e%3c/svg%3e");
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #fff;
+        }
+        .navbar-dark.fixed-top {
+            background-color: #003382 !important;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>I-PLAN</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">I-PLAN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link"  href="/">Home</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#dashboard">DashBoard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/costpredict">Cost Predict Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/recommend">Recommend Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main class="flex-shrink-0 my-custom-mt">
+        <div class="container mt-5">
+            <h1 class="mb-4">여행 경비 예측 서비스</h1>
+            <hr>
+            <p class="lead"><strong style="font-weight: bold; color: #003B95;">원하는 날짜</strong>와 <strong style="font-weight: bold; color: #003B95;">목적지</strong>를 입력하고, 예상 비용을 확인하세요</p>
+            <br>
+            <div class="form-row" style="display: flex; justify-content: space-between;">
+                <div style="width: 60%; margin-right: -20cm;">
+
+            <form action="/costpredict/result" method="POST">
+                <div class="mb-3">
+                    <label class="form-label"><b>목적지</b>를 선택하세요</label>
+                    <select class="form-select my-custom-input" aria-label="destination" name="destination">
+                        <option selected>목적지 선택하기</option>
+                        <option value="HND">김포(GMP)-하네다(HND)</option>
+                        <option value="NRT">인천(ICN)-나리타(NRT)</option>
+                    </select>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="start-date" class="form-label"><b>가는 날</b>을 선택하세요</label>
+                    <input type="date"
+                        id="start-date"
+                        max="2023-07-31"
+                        min="2023-06-01"
+                        value="2023-06-01"
+                        name="start_date"
+                        class="form-control my-custom-input">
+                </div>
+
+                <div class="mb-3">
+                    <label for="end-date" class="form-label"><b>오는 날</b>을 선택하세요</label>
+                    <input type="date"
+                        id="end-date"
+                        max="2023-07-31"
+                        min="2023-06-01"
+                        value="2023-06-01"
+                        name="end_date"
+                        class="form-control my-custom-input">
+                </div>
+                <hr style="width: 168%;">
+                
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-outline-dark my-custom-input">예측하기</button>
+                </div>
+            </form>
+        </div>
+
+        {% if accommodation_cost_lower_bound %}
+        <div style="width: 25%; margin-left: 11cm;">
+            <!-- Total cost estimate -->  
+            <h3>예상 총 비용</h3><br>
+            <p>{{ total_cost_lower_bound }}원 ~ {{ total_cost_upper_bound }}원</p>
+        </div>
+        <div style="width: 35%;">
+            <!-- Detailed cost estimate -->
+            <h3>상세 예측 비용</h3><br>
+            <p>항공권(출국) : <span id="departure-ticket-cost">{{ departure_ticket_cost }}</span>원</p>
+            <p>항공권(입국) : <span id="return-ticket-cost">{{ return_ticket_cost }}</span>원</p>
+            <p>숙소 : <span id="accommodation-cost-range">{{ accommodation_cost_lower_bound }}원 ~ {{ accommodation_cost_upper_bound }}</span>원</p>
+            <p>평균 교통비 : <span id="average-transportation-cost">{{ average_transportation_cost }}</span>원</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+</main>
+</body>
+</html>
