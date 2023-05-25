@@ -304,7 +304,7 @@ def compare_ml_stat():
 
 if __name__ == "__main__":
 
-
+    compare_ml_stat()
     print(pred_by_ml(601, 602, 'HND'))
     print(pred_by_ml(601, 602, 'NRT'))
 
