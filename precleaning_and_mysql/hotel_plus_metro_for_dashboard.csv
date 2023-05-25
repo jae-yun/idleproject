@@ -1,0 +1,1191 @@
+Hotel Name,mean_price,Time_Cost_NRT,Money_Cost_NRT,Time_Walk_NRT,Time_Cost_HND,Money_Cost_HND,Time_Walk_HND
+sequence MIYASHITA PARK - Shibuya,367786.0,87.0,26577.0,11.0,51.0,4589.0,11.0
+The OneFive Tokyo Shibuya,344765.0,88.0,26577.0,15.0,54.0,4589.0,14.0
+더 밀레니얼스 시부야(The Millennials Shibuya),316727.0,86.0,26577.0,10.0,50.0,4589.0,10.0
+시부야 스트림 엑셀 호텔 도큐(Shibuya Stream Excel Hotel Tokyu),293102.0,82.0,31070.0,6.0,62.0,10516.0,8.0
+all day place shibuya,333631.0,83.0,31070.0,7.0,50.0,4589.0,10.0
+Hotel Wing International Premium Shibuya,260031.0,88.0,26577.0,12.0,59.0,12619.0,4.0
+아파 호텔 시부야 도겐자카(APA Hotel Shibuya Dogenzakaue),275459.0,89.0,33173.0,7.0,58.0,10516.0,9.0
+시부야 호텔 엔(Shibuya Hotel En),302499.0,90.0,26577.0,12.0,57.0,10516.0,8.0
+시부야 토부 호텔(Shibuya Tobu Hotel),273955.0,90.0,26577.0,12.0,60.0,12619.0,5.0
+Mustard Hotel Shibuya,303394.0,83.0,31070.0,7.0,63.0,6118.0,3.0
+토큐 스테이 시부야(Tokyu Stay Shibuya),279938.0,88.0,33173.0,6.0,62.0,10516.0,8.0
+도미 인 프리미엄 시부야-진구마에(Dormy Inn Premium Shibuya-jingumae),256102.0,89.0,26577.0,14.0,54.0,4589.0,14.0
+사쿠라 플뤠르 아오야마(Sakura Fleur Aoyama),250510.0,84.0,31070.0,8.0,51.0,4589.0,11.0
+"Cerulean Tower Tokyu Hotel, A Pan Pacific Partner Hotel",521008.0,82.0,31070.0,6.0,54.0,10516.0,1.0
+시부야 그랑벨 호텔(Shibuya Granbell Hotel),254206.0,83.0,31070.0,7.0,57.0,10516.0,3.0
+시부야 엑셀 호텔 도큐(Shibuya Excel Hotel Tokyu),273777.0,83.0,31070.0,7.0,54.0,10516.0,5.0
+트렁크 (호텔)(TRUNK (HOTEL)),367446.0,90.0,26577.0,14.0,54.0,4589.0,14.0
+토큐 스테이 시부야 신미나미구치(Tokyu Stay Shibuya Shin-Minamiguchi),294950.0,79.0,31070.0,3.0,52.0,7648.0,13.0
+시부야 크레스톤 호텔(Shibuya Creston Hotel),297756.0,90.0,33173.0,6.0,66.0,10516.0,9.0
+Hotel DIAMOND,281943.0,89.0,26577.0,11.0,55.0,10516.0,6.0
+SALON Shibuya,341192.0,87.0,26577.0,9.0,49.0,4589.0,9.0
+Tabist Hotel New Washington Shibuya,322553.0,89.0,33173.0,5.0,61.0,12619.0,3.0
+The Millennials Shibuya / Vacation STAY 80745,369266.0,88.0,26577.0,10.0,50.0,4589.0,10.0
+The Millennials Shibuya / Vacation STAY 80776,376155.0,88.0,26577.0,10.0,50.0,4589.0,10.0
+Prince Smart Inn Ebisu,371711.0,88.0,27246.0,8.0,45.0,4493.0,8.0
+도미 인 익스프레스 메구로 아오바다이 핫 스프링(Dormy Inn Express Meguro Aobadai Hot Spring),364277.0,91.0,33173.0,3.0,63.0,12619.0,3.0
+토큐 스테이 아오야마 프리미어(Tokyu Stay Aoyama Premier),924224.0,86.0,26577.0,9.0,53.0,5640.0,10.0
+THE AOYAMA GRAND HOTEL,512270.0,86.0,26577.0,9.0,53.0,5640.0,10.0
+Act Hotel Shibuya,1583386.0,93.0,27915.0,7.0,53.0,5927.0,7.0
+Olympic Inn Shibuya,581368.0,95.0,27915.0,9.0,55.0,5927.0,9.0
+remm Roppongi,829455.0,90.0,26577.0,13.0,50.0,4493.0,8.0
+아파 호텔 롯폰기 에키마에(APA Hotel Roppongi Ekimae),502569.0,87.0,26577.0,10.0,49.0,4493.0,7.0
+호텔 알라만다 아오야마 도쿄(Hotel Allamanda Aoyama Tokyo),608933.0,82.0,26577.0,5.0,49.0,5640.0,6.0
+액트 호텔 롯폰기(Act Hotel Roppongi),584794.0,86.0,26577.0,9.0,50.0,4493.0,8.0
+HOTELみなと-MINATO-,568607.0,86.0,28011.0,13.0,60.0,4876.0,7.0
+Meguroholic Hotel,559523.0,87.0,27246.0,6.0,41.0,4493.0,6.0
+그랜드 하얏트 도쿄(Grand Hyatt Tokyo),474874.0,90.0,26577.0,13.0,54.0,5640.0,7.0
+롯폰기 호텔 에스(Roppongi Hotel S),539159.0,92.0,26577.0,15.0,56.0,5640.0,9.0
+사쿠라 호텔 하타가야(Sakura Hotel Hatagaya),457206.0,91.0,14722.0,6.0,59.0,13671.0,6.0
+The Westin Tokyo,554942.0,94.0,27246.0,14.0,50.0,6501.0,17.0
+ＨＯＴＥＬ ＧＬＡＮＺ ＣＡＳＣＡＴＡ - Vacation STAY 74636v,538063.0,83.0,28011.0,10.0,54.0,5640.0,7.0
+도큐 스테이 메구로 유텐지(Tokyu Stay Meguro Yutenji),561044.0,99.0,32791.0,8.0,62.0,5067.0,8.0
+Port House Hatsudai,442985.0,90.0,14722.0,7.0,58.0,13671.0,7.0
+MUSTARD HOTEL SHIMOKITAZAWA,541996.0,94.0,28202.0,13.0,70.0,14053.0,10.0
+니시신주쿠 그린 호텔(Nishishinjuku Green Hotel),577093.0,91.0,14722.0,6.0,59.0,13671.0,6.0
+아파 호텔 니시-아자부(APA Hotel Nishi-Azabu),343854.0,94.0,26577.0,14.0,58.0,5640.0,8.0
+HOTEL KABUKI,492025.0,81.0,26577.0,10.0,53.0,12428.0,3.0
+APA 호텔 & 리조트 니시신주쿠-고초메-에키 타워(APA Hotel & Resort Nishishinjuku-Gochome-Eki Tower),322819.0,90.0,28298.0,11.0,59.0,5067.0,5.0
+호텔 로즈 가든 신주쿠(Hotel Rose Garden Shinjuku),222513.0,85.0,26577.0,14.0,56.0,14436.0,6.0
+호텔 리즈베글리오 아카사카 (Hotel Risveglio Akasaka),236078.0,82.0,26577.0,9.0,39.0,7935.0,13.0
+APA Hotel Roppongi SIX,369965.0,87.0,26577.0,16.0,52.0,4493.0,11.0
+APA Hotel & Resort Roppongi-Eki-Higashi,311795.0,89.0,26577.0,13.0,47.0,4876.0,4.0
+Comfort Inn Tokyo Roppongi,313618.0,88.0,26577.0,11.0,48.0,4493.0,7.0
+신주쿠 프린스 호텔(Shinjuku Prince Hotel),307985.0,81.0,26577.0,10.0,52.0,12428.0,2.0
+호텔 마이스테이 프리미어 아카사카(Hotel Mystays Premier Akasaka),228187.0,82.0,28011.0,11.0,43.0,7935.0,19.0
+Super Hotel Premier Akasaka,209147.0,84.0,26577.0,11.0,41.0,7935.0,15.0
+더 낫 도쿄 신주쿠(THE KNOT TOKYO Shinjuku),213296.0,88.0,28680.0,7.0,58.0,14531.0,2.0
+시타딘스 센트럴 신주쿠 도쿄 (Citadines Central Shinjuku Tokyo),199050.0,83.0,26577.0,12.0,55.0,12428.0,5.0
+Via Inn Prime Akasaka,359084.0,83.0,26577.0,12.0,40.0,7935.0,17.0
+HOTEL HILLARYS Akasaka,234012.0,85.0,26577.0,12.0,42.0,7935.0,17.0
+시타딘 신주쿠 도쿄(Citadines Shinjuku Tokyo),331279.0,81.0,26577.0,12.0,55.0,12428.0,5.0
+신주쿠 워싱턴 호텔(Shinjuku Washington Hotel),214958.0,85.0,26577.0,14.0,60.0,12428.0,1.0
+APA 호텔 신주쿠 교에마에 (APA Hotel Shinjuku Gyoemmae),347824.0,85.0,26577.0,14.0,65.0,13384.0,1.0
+JR Kyushu Hotel Blossom Shinjuku (JR Kyushu Hotel Blossom Shinjuku),402911.0,80.0,26577.0,8.0,49.0,12428.0,4.0
+호텔 몬토레 아카사카(Hotel Monterey Akasaka),186706.0,91.0,31070.0,11.0,44.0,7935.0,18.0
+Hotel Villa Fontaine Grand Tokyo-Roppongi,189552.0,89.0,31070.0,13.0,43.0,5640.0,7.0
+호텔 썬루트 플라자 신주쿠(Hotel Sunroute Plaza Shinjuku),502976.0,87.0,31070.0,5.0,49.0,12428.0,4.0
+센츄리온 호텔 그랜드 아카사카미츠케 스테이션(Centurion Hotel Grand Akasakamitsuke Station),552744.0,86.0,31070.0,6.0,39.0,7935.0,13.0
+더 센츄리온 클래식 아카사카(The Centurion Classic Akasaka),528347.0,82.0,31070.0,11.0,41.0,7935.0,15.0
+OMO3 Tokyo Akasaka by Hoshino Resort,486393.0,95.0,32695.0,12.0,34.0,2677.0,7.0
+소테츠 프레사 인 도쿄 롯폰기(Sotetsu Fresa Inn Tokyo Roppongi),507704.0,92.0,13480.0,8.0,48.0,4493.0,7.0
+HOTEL SUI AKASAKA by ABEST,314229.0,83.0,31070.0,12.0,51.0,5640.0,16.0
+APA 빌라 호텔 아카사카-미츠케(APA Villa Hotel Akasaka-Mitsuke),689111.0,86.0,31070.0,6.0,47.0,5640.0,10.0
+Oakwood Hotel & Apartments Azabu Tokyo,454304.0,91.0,13480.0,11.0,45.0,5067.0,5.0
+니시테츠 인 신주쿠(Nishitetsu Inn Shinjuku),444381.0,98.0,31357.0,6.0,56.0,14436.0,6.0
+Hotel New Otani Tokyo The Main,338915.0,87.0,31070.0,14.0,60.0,6214.0,14.0
+the b sangenjaya,588736.0,98.0,32791.0,6.0,58.0,6310.0,8.0
+호텔 리스텔 신주쿠(Hotel Listel Shinjuku),518237.0,90.0,13480.0,12.0,69.0,14436.0,7.0
+Via Inn Shinjuku,480413.0,86.0,13480.0,8.0,58.0,14149.0,8.0
+Tokyu Stay Yotsuya,250265.0,83.0,31070.0,10.0,56.0,6214.0,10.0
+HOTEL LiVEMAX Akasaka GRANDE,700116.0,81.0,31070.0,10.0,50.0,5640.0,5.0
+Hotel Shu,440560.0,98.0,31357.0,11.0,65.0,14149.0,11.0
+THE LIVELY TOKYO AZABUJUBAN(The LIVELY TOKYO AZABUJUBAN),440531.0,91.0,13480.0,9.0,47.0,4493.0,8.0
+HOTEL LiVEMAX Akasaka,331146.0,82.0,31070.0,11.0,51.0,5640.0,6.0
+KARIO SASAZUKA TERRACE,285540.0,92.0,14722.0,5.0,68.0,6310.0,3.0
+Book Tea Bed SHINJUKU-GYOEN,508783.0,93.0,31357.0,6.0,58.0,6214.0,8.0
+쉐라톤 미야코 호텔 도쿄(Sheraton Miyako Hotel Tokyo),429720.0,89.0,33078.0,10.0,41.0,2868.0,17.0
+게이오 플라자 호텔 도쿄(Keio Plaza Hotel Tokyo),525343.0,98.0,32886.0,6.0,59.0,5067.0,6.0
+센츄리온 호텔 레지덴셜 아카사카 스테이션(Centurion Hotel Residential Akasaka Station),439669.0,82.0,31070.0,11.0,49.0,5640.0,12.0
+Hotel QUEEN ANNEX,276928.0,91.0,31070.0,9.0,60.0,6214.0,10.0
+파크 하얏트 도쿄(Park Hyatt Tokyo),341920.0,101.0,32886.0,11.0,63.0,5832.0,6.0
+게이오 프레소 인 아카사카(Keio Presso Inn Akasaka),371353.0,80.0,31070.0,9.0,49.0,5640.0,4.0
+ART HOTELS SHIBUYA,850683.0,91.0,14722.0,8.0,67.0,6310.0,6.0
+호텔 아베스트 메구로(Hotel Abest Meguro),447366.0,82.0,31070.0,5.0,39.0,4493.0,5.0
+호텔 록스(Hotel Rocks),512430.0,91.0,31070.0,9.0,55.0,10612.0,14.0
+Sotetsu Fresa Inn Tokyo-Akasaka,203713.0,80.0,31070.0,9.0,43.0,7935.0,19.0
+MIMARU TOKYO SHINJUKU WEST,306566.0,91.0,13480.0,11.0,61.0,12428.0,6.0
+매로드 인 아카사카(Marroad Inn Akasaka),1399688.0,83.0,31070.0,12.0,49.0,4493.0,16.0
+Hotel Yuyukan - Vacation STAY 10008v,633618.0,97.0,31357.0,7.0,57.0,4876.0,11.0
+호텔 미드 인 메구로 에키마에(Hotel Mid In Meguro Ekimae),678115.0,84.0,31070.0,7.0,41.0,4493.0,7.0
+Cerulean Tower Tokyu Hotel  A Pan Pacific Partner Hotel,280498.0,82.0,31070.0,6.0,47.0,10516.0,11.0
+Mitsui Garden Hotel Jingugaien Tokyo Premier,520299.0,94.0,13480.0,5.0,46.0,4493.0,8.0
+더 리츠-칼튼  도쿄(The Ritz-Carlton  Tokyo),551512.0,89.0,31070.0,16.0,45.0,4493.0,12.0
+호텔 윙 인터내셔널 프리미엄 도쿄 요츠야 (Hotel Wing International Premium Tokyo Yotsuya),500444.0,92.0,31070.0,7.0,57.0,6214.0,13.0
+게이오 프라자 호텔 도쿄 프리미어 그랜드 (Keio Plaza Hotel Tokyo Premier Grand),356627.0,98.0,32886.0,6.0,55.0,12428.0,1.0
+Kimpton Shinjuku Tokyo  an IHG Hotel,286017.0,100.0,32886.0,10.0,58.0,14436.0,3.0
+COCOSHUKU Shinjuku-Hanazono,195397.0,89.0,13480.0,11.0,59.0,6214.0,14.0
+Hotel Rose Garden Shinjuku - Vacation STAY 72146v,221978.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+Hotel Rose Garden Shinjuku - Vacation STAY 72147v,204586.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+Pod Select Hotel Shinjuku,361276.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+THE LIVELY AZABUJUBAN TOKYO / Vacation STAY 77702,247275.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+Keio Presso Inn Shinjuku,274471.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+Hotel Yuyukan Center of Kabukicho  Shinjuku,329025.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+아카사카 어반 호텔(Akasaka Urban Hotel),588742.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+호텔 가조엔 도쿄(Hotel Gajoen Tokyo),390549.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+호텔 선라이트 신주쿠(Hotel Sunlite Shinjuku),332888.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+그랜드 프린스 호텔 다카나와(Grand Prince Hotel Takanawa),302731.0,93.0,14531.0,8.0,93.0,14531.0,8.0
+Grand Prince Hotel Shin Takanawa,318999.0,93.0,14531.0,8.0,28.0,2868.0,8.0
+시나가와 프린스 호텔(Shinagawa Prince Hotel),416778.0,85.0,14818.0,4.0,24.0,2868.0,4.0
+신주쿠 그랑벨 호텔(Shinjuku Granbell Hotel),286075.0,91.0,13480.0,13.0,63.0,4876.0,17.0
+APA Hotel Shinjuku Kabukicho Chuo,309014.0,92.0,13480.0,14.0,59.0,4876.0,13.0
+APA 호텔 신주쿠-가부키쵸 타워(APA Hotel Shinjuku-Kabukicho Tower),393843.0,74.0,27820.0,6.0,58.0,4876.0,12.0
+도쿄 프린스 호텔 (Tokyo Prince Hotel),387427.0,85.0,12906.0,13.0,40.0,4111.0,13.0
+APA Hotel Higashi Shinjuku Kabukicho Tower,504767.0,94.0,13480.0,16.0,62.0,4876.0,14.0
+APA Hotel Pride Kokkaigijidomae - National Diet Bldg.,339019.0,88.0,14436.0,12.0,38.0,7935.0,13.0
+호텔 그레이서리 신주쿠(Hotel Gracery Shinjuku),343021.0,95.0,13480.0,17.0,60.0,4876.0,14.0
+Sotetsu Fresa Inn Daimon,190740.0,78.0,12906.0,6.0,32.0,4111.0,5.0
+시바 파크 호텔(Shiba Park Hotel),314678.0,79.0,12906.0,7.0,33.0,4111.0,6.0
+Miyako City Tokyo Takanawa,534968.0,75.0,31070.0,11.0,28.0,2868.0,8.0
+Shizutetsu Hotel Prezio Tokyo Tamachi,261798.0,72.0,26577.0,9.0,32.0,6214.0,13.0
+La'gent Hotel Shinjuku Kabukicho,293454.0,79.0,26290.0,13.0,61.0,4876.0,13.0
+호텔 몬토레 한조몬(Hotel Monterey Hanzomon),346362.0,81.0,26577.0,11.0,62.0,11568.0,8.0
+HOTEL CEN,252253.0,74.0,26290.0,8.0,56.0,4876.0,8.0
+네스트 호텔 도쿄 한조몬(Nest Hotel Tokyo Hanzomon),313208.0,83.0,31357.0,9.0,62.0,11568.0,8.0
+시나가와 토부 호텔(Shinagawa Tobu Hotel),340664.0,75.0,31070.0,11.0,28.0,2868.0,8.0
+호텔 그랜드 아크 한조몬(Hotel Grand Arc Hanzomon),282092.0,82.0,31357.0,8.0,63.0,11568.0,9.0
+APA 호텔 시나가와 센가쿠지 에키마에(APA Hotel Shinagawa Sengakuji Eki-Mae),327310.0,74.0,32408.0,5.0,25.0,2868.0,2.0
+Hotel Keihan Tokyo Yotsuya,337500.0,69.0,26290.0,9.0,45.0,6501.0,12.0
+Tokyu Stay Shinjuku Eastside,270335.0,80.0,26672.0,13.0,61.0,14436.0,6.0
+JR-East Hotel Mets Gotanda,331889.0,75.0,27246.0,3.0,35.0,4111.0,3.0
+프리미어 호텔 캐빈 신주쿠(Premier Hotel Cabin Shinjuku),408470.0,79.0,26290.0,13.0,61.0,4876.0,13.0
+Hotel Wing International Shimbashi Onarimon,273959.0,71.0,26290.0,13.0,35.0,4111.0,8.0
+소테츠 프레사 인 도쿄 타마치 (Sotetsu Fresa Inn Tokyo Tamachi),327784.0,72.0,26577.0,9.0,31.0,6214.0,13.0
+Hotel Villa Fontaine Grand Tokyo-Tamachi,262058.0,73.0,26577.0,10.0,36.0,2868.0,13.0
+아파 호텔 히가시-신주쿠-에키마에(APA Hotel Higashi-Shinjuku-Ekimae),378510.0,79.0,26672.0,12.0,64.0,4876.0,16.0
+APA 호텔 - 히가시신주쿠 가부키초 히가시(APA Hotel - Higashishinjuku Kabukicho Higashi),434235.0,80.0,26290.0,14.0,62.0,4876.0,14.0
+HOTEL MYSTAYS Nishi Shinjuku,463394.0,80.0,26577.0,11.0,57.0,4876.0,11.0
+Galois Hotel Shinokubo,416300.0,71.0,26290.0,5.0,53.0,4876.0,5.0
+Smile Hotel Shinagawasengakujiekimae,254686.0,75.0,32408.0,6.0,26.0,2868.0,3.0
+Mitsui Garden Hotel Gotanda - Tokyo,367929.0,78.0,27246.0,6.0,38.0,4111.0,6.0
+E 호텔 히가시 신주쿠(E Hotel Higashi Shinjuku),296817.0,79.0,26672.0,12.0,64.0,14436.0,6.0
+더 프린스 파크 타워 도쿄(The Prince Park Tower Tokyo),463923.0,78.0,28011.0,17.0,40.0,4111.0,12.0
+아파 호텔 히가시 신주쿠 가부키초(APA Hotel Higashi Shinjuku Kabukicho),430729.0,80.0,26290.0,14.0,58.0,4876.0,14.0
+GLOU Higashi Shinjuku,307373.0,80.0,26290.0,14.0,58.0,4876.0,14.0
+Blue Empire Hotel,341249.0,72.0,26290.0,6.0,50.0,4876.0,6.0
+Stay SAKURA Tokyo Shinjuku Hyakukura,310039.0,76.0,26290.0,10.0,54.0,4876.0,10.0
+호텔 마이스테이스 고탄다역(Hotel Mystays Gotanda Station),247126.0,77.0,27246.0,5.0,33.0,4302.0,6.0
+APA 호텔 미타-에키마에(APA Hotel Mita-Ekimae),177727.0,72.0,26577.0,9.0,29.0,4111.0,3.0
+아파 호텔 신바시 도라노몬(APA Hotel Shimbashi Toranomon),267810.0,68.0,26290.0,10.0,41.0,4111.0,11.0
+호텔 & 스파 제이-멕스 신주쿠 가부키초(성인 전용)(HOTEL & SPA J-MEX Shinjuku Kabukicho (Adult Only)),355036.0,80.0,26672.0,13.0,63.0,14436.0,8.0
+the b shimbashi toranomon,283621.0,68.0,26290.0,10.0,39.0,6214.0,13.0
+호텔 마이스테이스 고탄다(HOTEL MYSTAYS Gotanda),319769.0,81.0,27246.0,9.0,32.0,4876.0,5.0
+Hotel Grand Hill Ichigaya,433331.0,67.0,26290.0,7.0,53.0,6501.0,11.0
+토큐 스테이 다카나와(Tokyu Stay Takanawa),338142.0,74.0,32408.0,5.0,26.0,2868.0,2.0
+소테츠 프레사 인 하마마츠초 다이몬(Sotetsu Fresa Inn Hamamatsucho-Daimon),195559.0,72.0,26290.0,11.0,32.0,4111.0,4.0
+LOF HOTEL Shimbashi,216783.0,70.0,26290.0,12.0,41.0,4111.0,11.0
+호텔 더 셀레스틴 도쿄 시바(Hotel The Celestine Tokyo Shiba),232307.0,76.0,26577.0,13.0,32.0,4111.0,6.0
+호텔 페리에(성인 전용)(HOTEL PERRIER (Adult Only)),431441.0,82.0,26672.0,15.0,61.0,14436.0,6.0
+Bespoke Hotel Shinjuku,269732.0,81.0,26672.0,14.0,60.0,14436.0,6.0
+KEIKYU EX INN Hamamatsucho Daimon-Station,351087.0,69.0,26290.0,8.0,30.0,4111.0,2.0
+Shinagawa Prince Hotel N Tower,327163.0,70.0,31070.0,6.0,24.0,2868.0,4.0
+Pullman Tokyo Tamachi,637483.0,68.0,26577.0,5.0,31.0,4111.0,5.0
+Rose Stay Tokyo Shiba Park,316591.0,76.0,26577.0,13.0,33.0,4111.0,7.0
+Hotel Balian Resort Higashi Shinjuku (Adult Only),246119.0,80.0,26290.0,14.0,58.0,4876.0,14.0
+HOTEL LiVEMAX Shinjuku Kabukicho-Meijidori,313900.0,80.0,26672.0,13.0,61.0,14436.0,6.0
+Okubo Hotel Hawaii,198196.0,73.0,26290.0,7.0,51.0,4876.0,7.0
+게이오 프레소 인 하마마츠쵸 (Keio Presso Inn Hamamatsucho),182085.0,72.0,26290.0,11.0,33.0,4111.0,5.0
+토큐 스테이 고탄다(Tokyu Stay Gotanda),451237.0,78.0,27246.0,6.0,35.0,4111.0,3.0
+HOTEL LiVEMAX Shinjuku EAST,265519.0,79.0,26672.0,12.0,64.0,14436.0,6.0
+The Tokyo EDITION  Toranomon,205887.0,81.0,26577.0,10.0,49.0,5640.0,4.0
+HOTEL D-WAVE Shinjuku（Adult Only),174255.0,84.0,26577.0,15.0,60.0,14436.0,8.0
+The Okura Tokyo,251837.0,85.0,33078.0,9.0,36.0,4876.0,6.0
+더 프린스 갤러리 도쿄 쿄이초  어 럭셔리 컬렉션 호텔(The Prince Gallery Tokyo Kioicho  a Luxury Collection Hotel),298871.0,82.0,26577.0,12.0,50.0,5640.0,13.0
+헌드레드 스테이 도쿄 신주쿠(Hundred Stay Tokyo Shinjuku),411111.0,76.0,26290.0,10.0,54.0,4876.0,10.0
+더 프린스 사쿠라 타워 도쿄  오토그래프 컬렉션(The Prince Sakura Tower Tokyo  Autograph Collection),422933.0,73.0,31070.0,9.0,26.0,2868.0,6.0
+THE KITANO HOTEL TOKYO,504449.0,74.0,28011.0,10.0,50.0,5640.0,9.0
+더 캐피톨 호텔 도큐(The Capitol Hotel Tokyu),351027.0,79.0,26577.0,11.0,47.0,5640.0,12.0
+HOTEL LiVEMAX BUDGET Shinbashi,261482.0,71.0,26290.0,13.0,36.0,4111.0,8.0
+Akasaka Urban Hotel Annex,371132.0,76.0,26577.0,8.0,44.0,5640.0,9.0
+Shinagawa Prince Hotel East Tower,327860.0,71.0,31070.0,7.0,24.0,2868.0,4.0
+HOTEL LiVEMAX Shinjuku Kabukicho,374453.0,77.0,26290.0,13.0,57.0,4876.0,13.0
+오야도 고코치(Oyado Cocochi),269496.0,71.0,26290.0,5.0,49.0,4876.0,5.0
+Time Camp Takanawa 4F - Vacation STAY 81487v,456136.0,74.0,32408.0,5.0,26.0,2868.0,2.0
+SHINJUKU WARM VILLA I,575434.0,74.0,26290.0,8.0,52.0,4876.0,8.0
+＃３４ SHINJUKU RION HOTEL,509382.0,81.0,26672.0,14.0,64.0,14436.0,6.0
+五反田BaliBaliANNEX,493109.0,79.0,27246.0,7.0,36.0,4111.0,4.0
+SHINJUKU WARM HOUSE,286169.0,79.0,26290.0,13.0,57.0,4876.0,13.0
+The Okura Heritage Tokyo,379478.0,80.0,26577.0,14.0,51.0,5640.0,7.0
+Nano North Shinjuku Apartment,192423.0,82.0,26577.0,13.0,55.0,4876.0,13.0
+Hotel Koryukaku,243982.0,77.0,26290.0,11.0,55.0,4876.0,11.0
+Keio Presso Inn Gotanda,355343.0,80.0,27246.0,8.0,36.0,4302.0,9.0
+호텔 뉴 쇼헤이(Hotel New Shohei),329976.0,68.0,26290.0,8.0,56.0,6214.0,9.0
+신주쿠 어반 호텔(Shinjuku Urban Hotel),455602.0,85.0,26577.0,16.0,62.0,14436.0,7.0
+신주쿠 이스트 호텔 (Shinjuku East Hotel),497789.0,81.0,26672.0,14.0,62.0,14436.0,7.0
+안다즈 도쿄 - 컨셉 바이 하얏트 (Andaz Tokyo - A Concept by Hyatt),347993.0,79.0,26577.0,13.0,48.0,4111.0,18.0
+The Royal Park Hotel Iconic Tokyo Shiodome,184278.0,66.0,26290.0,8.0,35.0,4111.0,5.0
+The Gate Hotel Tokyo by Hulic,316049.0,63.0,26290.0,7.0,32.0,6214.0,11.0
+호텔 무스 긴자 메이테츠 (Hotel Musse Ginza Meitetsu),282007.0,70.0,26290.0,12.0,39.0,4111.0,9.0
+The Royal Park Canvas Ginza Corridor,320846.0,66.0,26290.0,10.0,33.0,6214.0,14.0
+파크 호텔 도쿄(Park Hotel Tokyo),386963.0,69.0,26290.0,11.0,37.0,4111.0,7.0
+remm plus Ginza,399997.0,68.0,26290.0,10.0,36.0,4111.0,6.0
+the b ginza,274095.0,68.0,26290.0,10.0,37.0,4111.0,7.0
+Mitsui Garden Hotel Shiodome Italia-gai - Tokyo,286449.0,69.0,26290.0,8.0,36.0,4111.0,8.0
+THE BLOSSOM HIBIYA,234671.0,66.0,26290.0,8.0,30.0,6214.0,11.0
+Sotetsu Fresa Inn Shimbashi-Karasumoriguchi,180533.0,65.0,26290.0,7.0,37.0,4111.0,7.0
+칸데오 호텔 도쿄 신바시(Candeo Hotels Tokyo Shimbashi),349680.0,65.0,26290.0,7.0,38.0,4111.0,8.0
+Mitsui Garden Hotel Ginza Premier,443584.0,69.0,26290.0,11.0,37.0,4111.0,7.0
+호텔 마이스테이 프리미어 하마마쓰초(Hotel Mystays Premier Hamamatsucho),260991.0,68.0,26290.0,7.0,34.0,4111.0,6.0
+Bay Hotel Tokyo Hamamatsucho,226436.0,66.0,26290.0,5.0,34.0,4111.0,6.0
+더 페닌슐라 도쿄(The Peninsula Tokyo),232648.0,63.0,26290.0,7.0,32.0,6214.0,11.0
+호텔 마이스테이스 하마마츠초(HOTEL MYSTAYS Hamamatsucho),285677.0,68.0,26290.0,7.0,32.0,4111.0,4.0
+Section L Hamamatsucho,402534.0,67.0,26290.0,6.0,33.0,4111.0,5.0
+소테츠 프레사 인 긴자 - 나나초메(Sotetsu Fresa Inn Ginza-Nanachome),512794.0,69.0,26290.0,11.0,37.0,4111.0,7.0
+소테츠 프레사 인 심바시 히비야구치(Sotetsu Fresa Inn Shimbashi Hibiyaguchi),312978.0,64.0,26290.0,6.0,37.0,4111.0,7.0
+SOTETSU GRAND FRESA TAKADANOBABA(Sotetsu Grand Fresa Takadanobaba),275966.0,69.0,26290.0,5.0,50.0,4876.0,5.0
+Henn na Hotel Tokyo Hamamatsucho,291745.0,66.0,26290.0,5.0,33.0,4111.0,5.0
+ibis Styles Tokyo Ginza,370708.0,69.0,26290.0,11.0,37.0,4111.0,7.0
+인터컨티넨탈 도쿄 베이(InterContinental Tokyo Bay  an IHG Hotel),226740.0,73.0,26290.0,12.0,42.0,4111.0,14.0
+Super Hotel Tokyo Hamamatsucho,405832.0,68.0,26290.0,7.0,32.0,4111.0,4.0
+더 스트링스 바이 인터컨티넨탈  도쿄(The Strings by InterContinental  Tokyo  an IHG Hotel),844103.0,71.0,31070.0,7.0,25.0,2868.0,7.0
+임페리얼 호텔 도쿄 (Imperial Hotel Tokyo),465194.0,67.0,26290.0,11.0,42.0,4493.0,7.0
+다이와 로이넷 호텔 도쿄 오사키(Daiwa Roynet Hotel Tokyo Osaki),269545.0,78.0,26577.0,8.0,31.0,4302.0,9.0
+하얏트 센트릭 긴자 도쿄(Hyatt Centric Ginza Tokyo),641945.0,67.0,26290.0,11.0,33.0,4493.0,7.0
+APA Hotel Shinagawa Togoshi Ekimae,397349.0,86.0,29349.0,5.0,41.0,4111.0,4.0
+mesm Tokyo  Autograph Collection,402064.0,73.0,26290.0,12.0,42.0,4111.0,14.0
+karaksa hotel premier Tokyo Ginza,616958.0,66.0,26290.0,8.0,35.0,4111.0,5.0
+베이사이드 호텔 아주르 타케시바(Bayside Hotel Azur Takeshiba),356986.0,87.0,29349.0,6.0,35.0,4111.0,14.0
+콘래드 도쿄(Conrad Tokyo),639051.0,76.0,12906.0,9.0,32.0,4111.0,9.0
+호텔 더 셀레스틴 긴자(Hotel The Celestine Ginza),450964.0,75.0,31070.0,10.0,30.0,4111.0,7.0
+도쿄 매리어트 호텔(Tokyo Marriott Hotel),764903.0,80.0,33078.0,11.0,26.0,2868.0,13.0
+APA 호텔 심바시 오나리몬(APA Hotel Shimbashi Onarimon),315299.0,76.0,12906.0,9.0,28.0,4111.0,7.0
+뉴 오타니 인 도쿄(New Otani Inn Tokyo),345805.0,80.0,31070.0,8.0,27.0,4302.0,8.0
+호텔 빌라 퐁텐 도쿄-하마마츠초(Hotel Villa Fontaine Tokyo-Hamamatsucho),413586.0,78.0,31070.0,12.0,29.0,4780.0,15.0
+GINZA HOTEL by GRANBELL,428764.0,80.0,31070.0,8.0,33.0,4111.0,10.0
+ホテルリラサーレ東京,615320.0,74.0,31070.0,8.0,25.0,4780.0,11.0
+Rhodes Kagurazaka,499750.0,78.0,26290.0,14.0,54.0,5927.0,10.0
+KEIKYU EX INN Shinagawa Shimbamba Station North,663767.0,77.0,33173.0,6.0,19.0,4206.0,3.0
+unito SHIODOME,254793.0,78.0,31070.0,13.0,31.0,4111.0,8.0
+SHINJUKU GLOBAL HOTEL,496872.0,72.0,26290.0,7.0,47.0,4876.0,7.0
+Shinbashi Urban Hotel,443239.0,74.0,31070.0,9.0,31.0,4111.0,8.0
+Business Hotel Crescent,745811.0,96.0,31070.0,14.0,58.0,5067.0,14.0
+플렉스테이 인 시나가와(FLEXSTAY INN Shinagawa),456204.0,75.0,33078.0,6.0,19.0,4206.0,4.0
+긴자 인터내셔널 호텔(Ginza International Hotel),508195.0,72.0,26290.0,8.0,29.0,4111.0,6.0
+Hotel Emit Shibuya - Vacation STAY 40892v,342617.0,88.0,26577.0,19.0,41.0,4589.0,14.0
+Hotel Emit Shibuya - Vacation STAY 40890v,331688.0,90.0,32026.0,7.0,41.0,4589.0,14.0
+힐튼 도쿄 호텔(Hilton Tokyo Hotel),159830.0,97.0,33173.0,8.0,50.0,5067.0,8.0
+Hotel GrandBach Tokyo Ginza,285657.0,81.0,31357.0,9.0,30.0,4493.0,4.0
+KOKO HOTEL Tsukiji Ginza,441621.0,82.0,31357.0,6.0,39.0,4493.0,13.0
+Quintessa Hotel Tokyo Ginza,291719.0,81.0,31357.0,9.0,28.0,4493.0,2.0
+Millennium Mitsui Garden Hotel Tokyo - Ginza,399609.0,79.0,31357.0,7.0,28.0,4493.0,2.0
+미쓰이 가든 호텔 오테마치(Mitsui Garden Hotel Otemachi - Tokyo),382265.0,75.0,31070.0,6.0,36.0,6405.0,13.0
+karaksa hotel TOKYO STATION,335285.0,78.0,12428.0,5.0,35.0,11854.0,10.0
+Mitsui Garden Hotel Ginza-gochome,279289.0,80.0,31357.0,8.0,29.0,4493.0,3.0
+호텔 인터게이트 도쿄 교바시(Hotel Intergate Tokyo Kyobashi),414670.0,64.0,26290.0,7.0,30.0,4493.0,2.0
+the square hotel GINZA,400765.0,67.0,26290.0,11.0,29.0,4493.0,3.0
+Dormy Inn Premium Ginza,356681.0,68.0,26290.0,12.0,31.0,4493.0,5.0
+Agora Tokyo Ginza,304101.0,65.0,26290.0,9.0,30.0,4493.0,4.0
+소테츠 프레사 인 오차노미즈 짐보초(Sotetsu Fresa Inn Ochanomizu Jimbocho),359234.0,78.0,31070.0,11.0,42.0,4493.0,7.0
+소테츠 프레사 인 긴자 산초메(Sotetsu Fresa Inn Ginza Sanchome),362676.0,67.0,26290.0,9.0,29.0,4493.0,3.0
+호텔 몬토레 긴자(Hotel Monterey Ginza),246902.0,66.0,26290.0,10.0,30.0,4493.0,4.0
+소테츠 프레사 인 도쿄 교바시(Sotetsu Fresa Inn Tokyo-Kyobashi),309323.0,65.0,26290.0,8.0,30.0,4493.0,2.0
+sequence SUIDOBASHI - Tokyo,239208.0,63.0,26194.0,4.0,46.0,4493.0,9.0
+karaksa hotel colors Tokyo Yaesu,332903.0,64.0,26290.0,9.0,35.0,4493.0,7.0
+Mitsui Garden Hotel Kyobashi - Tokyo Station,380986.0,65.0,26290.0,8.0,34.0,4493.0,6.0
+리가 로얄 호텔 도쿄 (Rihga Royal Hotel Tokyo),284172.0,86.0,26577.0,8.0,58.0,5927.0,11.0
+Mercure Tokyo Ginza,956591.0,66.0,26290.0,10.0,30.0,4493.0,4.0
+오크우드 프리미어 도쿄(Oakwood Premier Tokyo),327025.0,77.0,12428.0,4.0,30.0,4589.0,9.0
+Hotel Vista Tokyo Tsukiji,285109.0,67.0,26290.0,11.0,33.0,4493.0,7.0
+TSUKI Tokyo,267132.0,64.0,26290.0,10.0,34.0,4493.0,8.0
+솔라리아 니시테츠 호텔 긴자(Solaria Nishitetsu Hotel Ginza),469727.0,67.0,26290.0,9.0,28.0,4493.0,2.0
+호텔 아마넥 긴자 이스트(Hotel Amanek Ginza East),182187.0,68.0,26290.0,14.0,36.0,4493.0,10.0
+호텔 메트로폴리탄 에드몬트 도쿄(Hotel Metropolitan Edmont Tokyo),376002.0,67.0,26194.0,8.0,47.0,5640.0,5.0
+Via Inn Iidabashi Korakuen,244691.0,71.0,26290.0,17.0,52.0,5640.0,10.0
+APA 호텔 이다바시 에키마에(APA Hotel Iidabashi Ekimae),297802.0,69.0,26194.0,10.0,46.0,5640.0,4.0
+Vessel Inn Takadanobaba Ekimae,371385.0,63.0,26290.0,6.0,44.0,4876.0,6.0
+APA Hotel Ginza Kyobashi Tokyo-Eki Yaesu Minami-guchi,418770.0,65.0,26290.0,8.0,30.0,4493.0,2.0
+BOOK HOTEL 神保町,340572.0,71.0,26290.0,8.0,43.0,4493.0,8.0
+호텔 빌라 폰테인 도쿄 구단시타(Hotel Villa Fontaine Tokyo-Kudanshita),371244.0,69.0,26194.0,10.0,45.0,4493.0,10.0
+호텔 게이한 츠키지 긴자 그란데(Hotel Keihan Tsukiji Ginza Grande),371604.0,63.0,26290.0,9.0,34.0,5640.0,4.0
+아파 호텔 도쿄 쿠단시타 (APA Hotel Tokyo Kudanshita),236936.0,72.0,26290.0,11.0,48.0,5640.0,7.0
+APA Hotel Ginza Shintomicho Ekimae - Former APA Hotel Shintomicho Ekimae,243789.0,68.0,26290.0,14.0,36.0,4493.0,10.0
+호텔 선루트 긴자 (Hotel Sunroute Ginza),324777.0,68.0,26290.0,11.0,31.0,4493.0,5.0
+APA 아파 호텔 칸다 짐보초 에키히가시(APA Hotel Kanda Jimbocho Ekihigashi),433607.0,63.0,27724.0,11.0,44.0,4493.0,9.0
+Aloft Tokyo Ginza,363184.0,66.0,26290.0,10.0,29.0,4493.0,3.0
+APA 호텔 리다바시-에키 미나미(APA Hotel Iidabashi-Eki Minami),238301.0,71.0,26290.0,17.0,47.0,5640.0,5.0
+Tabist Ginza,415953.0,69.0,26290.0,13.0,34.0,4493.0,8.0
+Boutique Sauna ARCH,281499.0,70.0,26290.0,16.0,52.0,5640.0,10.0
+Eternity APARTMENT HOTEL 品川,262434.0,81.0,27628.0,8.0,29.0,4493.0,7.0
+Four Seasons Hotel Tokyo at Otemachi,500982.0,62.0,27724.0,7.0,40.0,4493.0,8.0
+ELE hotel Ginza East,659303.0,65.0,26290.0,13.0,42.0,4493.0,10.0
+HOTEL LiVEMAX Tokyo Shintomicho,441038.0,67.0,26290.0,15.0,40.0,4493.0,8.0
+Keio Presso Inn Tokyo Kudanshita,531670.0,73.0,26290.0,9.0,44.0,5640.0,5.0
+아파 호텔 핫초보리 신토미초(APA Hotel Hatchobori Shintomicho),329545.0,65.0,26290.0,13.0,43.0,4493.0,11.0
+애스코트 마루노우치 도쿄(Ascott Marunouchi Tokyo),372548.0,62.0,27724.0,7.0,39.0,4493.0,7.0
+APA Hotel Ginza-Takaracho Tokyo Yaesu Minami-guchi,519034.0,67.0,26290.0,10.0,36.0,4493.0,4.0
+팰리스 호텔 도쿄(Palace Hotel Tokyo),243856.0,63.0,27724.0,8.0,39.0,4493.0,7.0
+도큐 스테이 스이도바시 (Tokyu Stay Suidobashi),212214.0,67.0,26194.0,8.0,45.0,4493.0,8.0
+HOTEL LiVEMAX Takadanobaba Ekimae,408531.0,65.0,26290.0,8.0,49.0,4876.0,8.0
+토큐 스테이 츠키지 (Tokyu Stay Tsukiji),390719.0,65.0,26290.0,11.0,40.0,4493.0,10.0
+Hotel SUI Ginza Kyobashi by ABEST,473720.0,65.0,26290.0,8.0,33.0,4493.0,1.0
+포시즌 호텔 도쿄 마루노우치(Four Seasons Hotel Tokyo at Marunouchi),434618.0,66.0,26194.0,12.0,40.0,4493.0,8.0
+Hotel New Takada,371807.0,63.0,26290.0,6.0,47.0,4876.0,6.0
+도쿄 인(Tokyo Inn),345933.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+HOTEL LiVEMAX Higashi Ginza,341543.0,64.0,26290.0,10.0,37.0,4493.0,7.0
+KEIKYU EX INN Higashi-Ginza,485787.0,65.0,26290.0,11.0,38.0,4493.0,8.0
+Bulgari Hotel Tokyo,486590.0,61.0,26194.0,7.0,34.0,6405.0,11.0
+Spatium Ginza Pony,541531.0,67.0,26290.0,13.0,41.0,5640.0,7.0
+No  2 Taniji Building - Vacation STAY 91383v,506735.0,78.0,28106.0,13.0,15.0,2390.0,4.0
+No  2 Taniji Building - Vacation STAY 92282v,587106.0,69.0,26290.0,16.0,61.0,5545.0,16.0
+No  2 Taniji Building - Vacation STAY 91347v,197757.0,69.0,26290.0,16.0,61.0,5545.0,16.0
+Tokyo Inn - Vacation STAY 10227v,787893.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+Tokyo Inn - Vacation STAY 10241v,346403.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+Tokyo Inn - Vacation STAY 11127v,668017.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+Tokyo Inn - Vacation STAY 11113v,321434.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+Tokyo Inn - Vacation STAY 10247v,467150.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+Tokyo Inn - Vacation STAY 11125v,614399.0,87.0,28680.0,9.0,33.0,4493.0,3.0
+HIZ HOTEL - Vacation STAY 08955v,281865.0,65.0,26290.0,13.0,38.0,4493.0,6.0
+MIMARU TOKYO GINZA EAST,258225.0,67.0,26290.0,15.0,39.0,4493.0,7.0
+플렉스스테이 인 나카노부(FLEXSTAY INN Nakanobu),389571.0,90.0,28680.0,14.0,36.0,4493.0,8.0
+Shangri-La Tokyo,673204.0,61.0,26194.0,7.0,32.0,6405.0,11.0
+BnA WALL,983519.0,58.0,26290.0,11.0,39.0,4493.0,9.0
+Hotel JAL City Tokyo Toyosu,264139.0,95.0,28298.0,5.0,34.0,9464.0,10.0
+소테츠 프레사 인 니혼바시 가야바초(Sotetsu Fresa Inn Nihombashi Kayabacho),989498.0,61.0,26290.0,10.0,35.0,4493.0,8.0
+Hearton Hotel Higashi-Shinagawa,643651.0,85.0,29254.0,8.0,27.0,2868.0,12.0
+LOISIR HOTEL SHINAGAWA SEASIDE,696503.0,86.0,29254.0,9.0,25.0,2868.0,10.0
+아키하바라 워싱턴 호텔(Akihabara Washington Hotel),256651.0,54.0,26194.0,4.0,37.0,4589.0,5.0
+Sotetsu Fresa Inn Kanda-Otemachi,523257.0,58.0,26194.0,6.0,37.0,4589.0,7.0
+소테츠 프레사 인 니혼바시-닌교초(Sotetsu Fresa Inn Nihombashi-Ningyocho),910574.0,65.0,26290.0,8.0,34.0,4493.0,2.0
+리치몬드 호텔 도쿄 메지로(Richmond Hotel Tokyo Mejiro),1610680.0,61.0,26290.0,6.0,49.0,4876.0,6.0
+리치몬드 호텔 도쿄 스이도바시(Richmond Hotel Tokyo Suidobashi),234862.0,67.0,26577.0,11.0,44.0,4493.0,7.0
+KEIKYU EX INN Tokyo Nihombashi,214594.0,61.0,26290.0,10.0,35.0,4493.0,8.0
+remm Akihabara,324083.0,56.0,26194.0,6.0,39.0,4589.0,7.0
+도미 인 고라쿠엔(Dormy Inn Korakuen),276767.0,64.0,26290.0,12.0,45.0,4493.0,6.0
+긴자 크레스톤 (Ginza Creston),232435.0,68.0,26290.0,14.0,43.0,5640.0,9.0
+그랜드 닛코 도쿄 오다이바(Grand Nikko Tokyo Daiba),302283.0,83.0,29445.0,8.0,41.0,4971.0,4.0
+JR-East Hotel Mets Akihabara,501912.0,59.0,26194.0,3.0,36.0,4589.0,4.0
+Hotel Resol Stay Akihabara,420080.0,65.0,26194.0,9.0,42.0,4493.0,6.0
+토세이 호텔 코콘 칸다(Tosei Hotel Cocone Kanda),238586.0,64.0,26194.0,6.0,37.0,4589.0,7.0
+APA 호텔 오차노미즈-에키타(APA Hotel Ochanomizu-Ekikita),261130.0,68.0,26290.0,12.0,44.0,5640.0,11.0
+Hotel Kazusaya,382305.0,69.0,26290.0,10.0,40.0,4589.0,8.0
+HOTEL SUI KANDA by ABEST,374362.0,66.0,26194.0,8.0,38.0,4589.0,8.0
+Super Hotel Premier Akihabara,229654.0,64.0,26194.0,8.0,42.0,4493.0,6.0
+Mitsui Garden Hotel Nihonbashi Premier,399410.0,66.0,26290.0,7.0,36.0,5640.0,7.0
+묘진-노-유 도미 인 프리미엄 칸다(Myoujin-no-Yu Dormy Inn Premium Kanda),789655.0,65.0,26290.0,7.0,38.0,5640.0,7.0
+GATE STAY Premium Nihonbashi,327122.0,68.0,26290.0,9.0,40.0,4589.0,8.0
+Hotel K5,499092.0,68.0,22944.0,7.0,32.0,4493.0,5.0
+Mandarin Oriental  Tokyo,351538.0,65.0,26290.0,6.0,35.0,5640.0,6.0
+소테츠 프레사 인 도쿄 간다(Sotetsu Fresa Inn Tokyo Kanda),408971.0,66.0,26194.0,8.0,38.0,4589.0,8.0
+벨켄 호텔 칸다(Belken Hotel Kanda),230665.0,68.0,26194.0,10.0,41.0,4493.0,4.0
+호텔 메트로폴리탄 도쿄 이케부쿠로(Hotel Metropolitan Tokyo Ikebukuro),406699.0,69.0,26290.0,5.0,50.0,5545.0,5.0
+Keio Presso Inn Nihonbashi Kayabacho,380407.0,71.0,22944.0,10.0,36.0,4493.0,9.0
+Wires Hotel Shinagawa Seaside,1325284.0,84.0,32408.0,12.0,24.0,2868.0,9.0
+La Vista Tokyo Bay,362248.0,96.0,14914.0,7.0,35.0,9464.0,9.0
+NOHGA HOTEL AKIHABARA TOKYO,296478.0,65.0,26290.0,9.0,42.0,5640.0,9.0
+호텔 빌라 폰테인 도쿄-핫초보리(Hotel Villa Fontaine Tokyo-hatchobori),376254.0,72.0,22944.0,11.0,36.0,4493.0,9.0
+도미 인 도쿄 핫초보리 핫 스프링(Dormy Inn Tokyo Hatchobori Hot Spring),275532.0,85.0,15105.0,7.0,45.0,4493.0,13.0
+호텔 빌라 퐁텐 도쿄-오테마치(Hotel Villa Fontaine Tokyo-Otemachi),1597442.0,66.0,26194.0,8.0,39.0,4589.0,9.0
+아파 호텔 칸다-에키 히가시(APA Hotel Kanda-Eki Higashi),280491.0,68.0,26194.0,10.0,37.0,6405.0,14.0
+APA 호텔 핫초보리-에키 미나미(APA Hotel Hatchobori-eki Minami),742816.0,73.0,22944.0,10.0,41.0,4493.0,9.0
+아파 호텔 간다 에키마에(APA Hotel Kanda Ekimae),218712.0,64.0,26194.0,6.0,33.0,6405.0,10.0
+Via Inn Prime Nihonbashi Ningyocho,329773.0,65.0,22944.0,6.0,39.0,4493.0,4.0
+호텔 마이스테이스 오차노미즈 컨퍼런스 센터(HOTEL MYSTAYS Ochanomizu Conference Center),221638.0,66.0,26194.0,10.0,39.0,6405.0,14.0
+호텔 윙 인터내셔널 고라쿠엔(Hotel Wing International Korakuen),300321.0,72.0,26577.0,10.0,47.0,4493.0,8.0
+호텔 빌라 퐁텐 도쿄-가야바초(Hotel Villa Fontaine Tokyo-Kayabacho),221832.0,72.0,22944.0,11.0,42.0,4493.0,9.0
+스마일 호텔 도쿄 니혼바시(Smile Hotel Tokyo Nihonbashi),228550.0,70.0,26290.0,8.0,42.0,4493.0,9.0
+게이오 프레소 인 이케부쿠로(Keio Presso Inn Ikebukuro),333969.0,79.0,28298.0,7.0,61.0,5545.0,10.0
+Via Inn Tokyo Oimachi,438375.0,80.0,31070.0,6.0,30.0,2868.0,15.0
+Keio Presso Inn Otemachi,262542.0,66.0,26194.0,8.0,35.0,6405.0,12.0
+니시테츠 인 니혼바시(Nishitetsu Inn Nihonbashi),252149.0,65.0,22944.0,6.0,39.0,4493.0,4.0
+호텔 레솔 이케부쿠로 (Hotel Resol Ikebukuro),439684.0,78.0,27820.0,10.0,63.0,5545.0,12.0
+호텔 마이스테이스 간다(HOTEL MYSTAYS Kanda),340665.0,68.0,26194.0,10.0,37.0,6405.0,14.0
+오차노미즈 인(Ochanomizu Inn),256762.0,69.0,26194.0,13.0,42.0,6405.0,17.0
+JHotelTokyoGEO,401254.0,80.0,12428.0,7.0,37.0,6405.0,14.0
+Keio Presso Inn Kanda,375529.0,66.0,26194.0,8.0,35.0,6405.0,12.0
+MIMARU TOKYO HATCHOBORI,211807.0,72.0,26290.0,10.0,43.0,4493.0,10.0
+아티스트 호텔 - BnA 스튜디오 아키하바라(Artist Hotel - BnA STUDIO Akihabara),441087.0,66.0,26290.0,10.0,50.0,6214.0,8.0
+도큐 스테이 니혼바시(Tokyu Stay Nihombashi),312991.0,69.0,26194.0,11.0,37.0,6405.0,14.0
+HOTEL LiVEMAX Nihonbashi Koamicho,473860.0,69.0,22944.0,10.0,43.0,4493.0,8.0
+Via Inn Akihabara,285940.0,64.0,26194.0,8.0,37.0,6405.0,12.0
+L stay＆grow晴海,366742.0,94.0,31357.0,7.0,41.0,9656.0,4.0
+HOTEL LiVEMAX Tokyo Kanda EAST,329855.0,67.0,26194.0,9.0,36.0,6405.0,13.0
+호텔 도쿄 가든 팰리스 (Hotel Tokyo Garden Palace),312538.0,72.0,26290.0,16.0,41.0,6405.0,14.0
+神田ステーションホテル,335804.0,63.0,26194.0,5.0,32.0,6405.0,9.0
+호텔 테토라 이케부쿠로(Hotel Tetora Ikebukuro),421973.0,71.0,26290.0,7.0,52.0,5545.0,6.0
+Section L Hatchobori,360088.0,76.0,26290.0,13.0,39.0,4493.0,12.0
+MIMARU Tokyo STATION EAST,386967.0,72.0,26290.0,10.0,35.0,5640.0,4.0
+Ostay Numabukuro Hotel Apartment,301762.0,75.0,26290.0,11.0,57.0,5545.0,11.0
+HOTEL LiVEMAX Kayabacho,538852.0,71.0,26290.0,9.0,37.0,4493.0,9.0
+HOTEL LiVEMAX Tokyo Kanda-Ekimae,341264.0,65.0,26194.0,7.0,34.0,6405.0,11.0
+펄 호텔 카야바초 (Pearl Hotel Kayabacho),238607.0,75.0,26768.0,5.0,40.0,4493.0,12.0
+컴포트 호텔 도쿄 히가시 니혼바시(Comfort Hotel Tokyo Higashi Nihombashi),299064.0,68.0,22562.0,11.0,41.0,4493.0,9.0
+KOKO HOTEL Premier Nihonbashi Hamacho,225248.0,67.0,22562.0,10.0,38.0,4493.0,8.0
+APA Hotel Ueno Ekiminami,288994.0,56.0,24569.0,6.0,39.0,6501.0,11.0
+컴포트 호텔 도쿄 히가시 칸다(Comfort Hotel Tokyo Higashi Kanda),433184.0,68.0,22562.0,11.0,41.0,4493.0,9.0
+아파 호텔 게이세이 우에노 에키마에(APA Hotel Keisei Ueno Ekimae),200065.0,54.0,24569.0,4.0,41.0,6501.0,13.0
+APA Hotel Yamanote Otsuka Eki Tower,418963.0,68.0,26194.0,7.0,54.0,6788.0,10.0
+APA Hotel Asakusabashi Ekimae,246761.0,61.0,22562.0,6.0,38.0,4493.0,4.0
+Minn Akihabara,280735.0,70.0,26194.0,14.0,47.0,4493.0,13.0
+호텔 윙 인터내셔널 이케부쿠로(Hotel Wing International Ikebukuro),458200.0,79.0,26290.0,15.0,61.0,5545.0,15.0
+APA Hotel Akihabara Ekikita,360723.0,66.0,26194.0,10.0,40.0,6405.0,15.0
+Sotetsu Grand Fresa Tokyo-Bay Ariake,209318.0,103.0,33173.0,14.0,30.0,6692.0,7.0
+APA Hotel Akihabara Ekihigashi,230521.0,64.0,26194.0,8.0,37.0,6405.0,12.0
+N Plus Hotel Akihabara,249520.0,67.0,26194.0,11.0,40.0,6405.0,15.0
+Villa Fontaine Grand Tokyo Ariake,223853.0,107.0,31357.0,9.0,40.0,9464.0,12.0
+선샤인 시티 프린스 호텔 이케부쿠로(Sunshine City Prince Hotel Ikebukuro),294279.0,78.0,26194.0,17.0,60.0,10134.0,12.0
+APA Hotel Nihombashi Bakuroyokoyama Ekimae,258267.0,63.0,22562.0,6.0,35.0,4493.0,3.0
+Dormy Inn Ikebukuro,216237.0,79.0,26290.0,15.0,61.0,5545.0,15.0
+APA Hotel Ueno Hirokoji,227996.0,60.0,24569.0,10.0,40.0,6501.0,12.0
+HOTEL VARKIN ANNEX,219254.0,73.0,26290.0,9.0,55.0,5545.0,9.0
+APA Hotel Omori Ekimae,200206.0,81.0,31070.0,4.0,29.0,4493.0,5.0
+Far East Village Hotel Tokyo Ariake,258572.0,105.0,31357.0,7.0,37.0,9464.0,9.0
+JR-East Hotel Mets Omori,194413.0,81.0,31070.0,4.0,30.0,2677.0,4.0
+호텔 마이스테이 프리미어 오모리(HOTEL MYSTAYS PREMIER Omori),229458.0,86.0,31070.0,9.0,31.0,2677.0,5.0
+로얄 파크 호텔(Royal Park Hotel),222922.0,71.0,26768.0,1.0,39.0,4493.0,9.0
+호텔 마이스테이스 아사쿠사바시(HOTEL MYSTAYS Asakusabashi),307028.0,66.0,12524.0,5.0,39.0,4493.0,5.0
+Henn na Hotel Tokyo Asakusabashi,250826.0,65.0,12524.0,4.0,38.0,4493.0,4.0
+Hotel VARKIN,338735.0,62.0,26290.0,9.0,55.0,5545.0,9.0
+Hotel Crown Hills Ueno Premier,252151.0,49.0,24569.0,8.0,41.0,6501.0,13.0
+다이와 로이넷 호텔 도쿄 아리아케(Daiwa Roynet Hotel Tokyo Ariake),254492.0,98.0,33173.0,9.0,38.0,6023.0,12.0
+MONday Apart Premium UENO OKACHIMACHI,262568.0,53.0,24569.0,12.0,38.0,6501.0,10.0
+GATE STAY NIHONBASHI SUITENGUMAE,222396.0,72.0,26768.0,2.0,40.0,4493.0,10.0
+슈퍼 호텔 로하스 이케부쿠로-에키 기타구치(Super Hotel Lohas Ikebukuro-Eki Kitaguchi),384159.0,63.0,26290.0,10.0,56.0,5545.0,10.0
+Tosei Hotel Cocone Ueno Okachimachi,190882.0,49.0,24569.0,8.0,37.0,6501.0,9.0
+HOTEL APERTO (Adult Only),356175.0,56.0,26194.0,6.0,53.0,6788.0,9.0
+아파 호텔 아키하바라-에키마에(APA Hotel Akihabara-Ekimae),229103.0,57.0,26194.0,7.0,36.0,6405.0,11.0
+호텔 트러스티 도쿄 베이사이드(Hotel Trusty Tokyo Bayside),251545.0,108.0,16634.0,13.0,32.0,6692.0,9.0
+Super Hotel Premier Ikebukuro Natural Hot Spring,273573.0,63.0,26290.0,10.0,56.0,5545.0,10.0
+센츄리온 호텔 이케부쿠로 스테이션(Centurion Hotel Ikebukuro Station),203641.0,62.0,26290.0,9.0,55.0,5545.0,9.0
+cotoha Hotel Okachimachi,410742.0,55.0,24569.0,14.0,44.0,5640.0,4.0
+센추리온 호텔&스파 우에노 스테이션(Centurion Hotel&Spa Ueno Station),380769.0,46.0,24569.0,5.0,39.0,6501.0,11.0
+슈퍼 호텔 우에노-오카치마치(Super Hotel Ueno-Okachimachi),313664.0,51.0,24569.0,10.0,37.0,6501.0,9.0
+HOTEL VARKIN Ikebukuro Nishiguchi,321542.0,62.0,26290.0,9.0,55.0,5545.0,9.0
+The Share Hotels Lyuro Tokyo Kiyosumi,207582.0,80.0,26768.0,10.0,53.0,5067.0,12.0
+Keisei Richmond Hotel Tokyo Monzennakacho,354472.0,76.0,14436.0,6.0,43.0,5640.0,6.0
+아파 호텔 히가시 니혼바시 에키마에(APA Hotel Higashi-Nihombashi-Ekimae),407837.0,61.0,12524.0,2.0,33.0,4493.0,1.0
+APA Hotel Nihombashi Bakurocho Ekimae,296597.0,64.0,12524.0,5.0,37.0,4493.0,5.0
+Hotel Wing International Select Ikebukuro,368287.0,66.0,26290.0,13.0,59.0,5545.0,13.0
+센츄리온 호텔 우에노 (Centurion Hotel Ueno),276189.0,46.0,24569.0,5.0,39.0,12141.0,9.0
+호텔 윙 인터내셔널 셀렉트 우에노 오카치마치(Hotel Wing International Select Ueno Okachimachi),221483.0,47.0,24569.0,6.0,46.0,5640.0,4.0
+APA 호텔 이케부쿠로 에키 기타구치(APA Hotel Ikebukuro Eki Kitaguchi),269345.0,62.0,26290.0,9.0,55.0,5545.0,9.0
+호텔 그랜드 시티 (Hotel Grand City),260672.0,63.0,26290.0,10.0,56.0,5545.0,10.0
+NPlus Hotel Higashikanda-akihabara,445626.0,58.0,26290.0,13.0,45.0,5640.0,7.0
+아파 호텔 닌교쵸-에키 키타(APA Hotel Ningyocho-eki Kita),285858.0,67.0,12524.0,8.0,33.0,4493.0,3.0
+아파 호텔 고덴마초-에키마에(APA Hotel Kodemmacho-ekimae),254756.0,65.0,12524.0,6.0,38.0,4493.0,6.0
+Forest Hongo by unito,373323.0,67.0,26577.0,16.0,51.0,4493.0,13.0
+APA 호텔 니혼바시 하마초-에키 미나미(APA Hotel Nihombashi Hamacho-eki Minami),234363.0,73.0,12524.0,14.0,45.0,4493.0,15.0
+Designers Hotel Siesta,298352.0,58.0,26290.0,15.0,50.0,4493.0,16.0
+APA Hotel Ningyocho-eki Higashi,198299.0,66.0,12524.0,7.0,34.0,4493.0,4.0
+호텔 마이스테이스 히가시 이케부쿠로(HOTEL MYSTAYS Higashi Ikebukuro),328018.0,61.0,26194.0,11.0,60.0,5545.0,11.0
+Shikinosai Akihabara Hotel,288940.0,70.0,12524.0,11.0,43.0,4493.0,11.0
+Minn Ueno,297110.0,51.0,24569.0,10.0,45.0,5640.0,5.0
+Eisei Stay,220094.0,64.0,26290.0,11.0,57.0,5545.0,11.0
+HOTEL LiVEMAX Tokyo-Otsuka Ekimae,267637.0,57.0,26194.0,7.0,56.0,5545.0,7.0
+미마루 도쿄 니홈바시 스이텐구마에(MIMARU TOKYO NIHOMBASHI SUITENGUMAE),252633.0,74.0,13097.0,10.0,41.0,4493.0,11.0
+Restay Frontier (Adult Only),217577.0,56.0,26194.0,6.0,55.0,5545.0,6.0
+호텔 악사스 니혼바시(Hotel Axas Nihonbashi),174209.0,73.0,13097.0,9.0,42.0,4493.0,12.0
+HOTEL Q,201982.0,64.0,26290.0,11.0,57.0,5545.0,11.0
+Le Tour Hotel Akihabara Ekimae 楽途ホテル秋葉原駅前店,188108.0,74.0,12524.0,15.0,43.0,5640.0,5.0
+KEIKYU EX INN Akihabara,231558.0,58.0,26194.0,8.0,43.0,4589.0,10.0
+japan house sugamo,255105.0,57.0,26194.0,9.0,52.0,5067.0,8.0
+Hotel COREST (Adult Only),384471.0,75.0,12906.0,13.0,38.0,4493.0,8.0
+匯金北池袋ビル,275028.0,71.0,26290.0,18.0,64.0,5545.0,18.0
+수퍼 호텔 JR 이케부쿠로 니시구치 (Super Hotel JR Ikebukuro Nishiguchi),252457.0,64.0,26290.0,11.0,56.0,5545.0,10.0
+Okachimachi Urban Hotel,295478.0,52.0,24569.0,11.0,42.0,5640.0,8.0
+후타코타마가와 엑셀 호텔 도큐 (Futakotamagawa Excel Hotel Tokyu),500341.0,112.0,16061.0,15.0,52.0,10994.0,2.0
+ホテル プレジール秋葉原 昭和通り口,288163.0,75.0,12524.0,16.0,38.0,6405.0,13.0
+Hotel Gran Villa,311114.0,55.0,26194.0,7.0,52.0,5067.0,7.0
+無料wi-fi JING HOUSE 秋葉原 電動自転車レンタル,217922.0,55.0,26194.0,5.0,35.0,6405.0,10.0
+Otsuka Town Hotel,306255.0,58.0,26194.0,8.0,55.0,6788.0,11.0
+HOTEL LiVEMAX Nihonbashi Hakozaki,266088.0,74.0,13097.0,10.0,47.0,8604.0,2.0
+HOTEL PARK SIDE,264976.0,47.0,24569.0,6.0,42.0,6501.0,14.0
+REIMI MONDO,177397.0,68.0,26290.0,15.0,67.0,5545.0,16.0
+akihabara marutomo hotel,180332.0,56.0,26290.0,11.0,38.0,6405.0,13.0
+R&B Hotel Otsuka Eki Kitaguchi - Vacation STAY 40485v,164332.0,55.0,26194.0,5.0,52.0,6788.0,8.0
+TORA HOTEL Tokyo Ueno 寅ホテル 上野 D,306032.0,51.0,24569.0,10.0,40.0,6501.0,12.0
+R&B Hotel Otsuka Eki Kitaguchi - Vacation STAY 14225v,289203.0,55.0,26194.0,5.0,52.0,6788.0,8.0
+HOTEL LiVEMAX Ikebukuro Ekimae,419377.0,63.0,26290.0,10.0,61.0,5545.0,10.0
+HOTEL LiVEMAX Nihonbashi Ningyocho,314785.0,57.0,26290.0,9.0,37.0,4493.0,2.0
+HOTEL LiVEMAX Asakusabashi-Ekimae,366473.0,59.0,26194.0,5.0,42.0,4493.0,3.0
+unito CHIYODA,302893.0,61.0,26290.0,16.0,47.0,4493.0,10.0
+MIMARU TOKYO UENO OKACHIMACHI,294399.0,50.0,24569.0,9.0,39.0,6501.0,11.0
+HOTEL LiVEMAX Tokyo Bakurocho,653445.0,60.0,26290.0,13.0,42.0,4493.0,5.0
+HOTEL LiVEMAX Akihabara Kita,452372.0,58.0,26290.0,15.0,44.0,6405.0,19.0
+Ikebukuro Grand Hotel,486511.0,63.0,26290.0,10.0,61.0,5545.0,10.0
+Ikebukuro Central Hotel,326609.0,62.0,26290.0,9.0,60.0,5545.0,9.0
+호텔 아메시스트(Hotel Amethyst),290439.0,64.0,26290.0,11.0,61.0,12428.0,6.0
+Ueno Station Hostel Oriental 1 Male Only,244441.0,46.0,24569.0,5.0,38.0,6501.0,10.0
+ICI HOTEL Ueno Shin Okachimachi,172031.0,58.0,24569.0,17.0,55.0,5067.0,5.0
+컴포트 호텔 도쿄 기요스미 시라카와(Comfort Hotel Tokyo Kiyosumi Shirakawa),238769.0,67.0,26672.0,11.0,45.0,5067.0,3.0
+APA Hotel & Resort Ryogoku Eki Tower,238956.0,67.0,26290.0,14.0,54.0,4493.0,14.0
+Ueno Woo Hotel,224901.0,57.0,26290.0,11.0,56.0,5067.0,6.0
+APA Hotel Asakusa Kuramae Ekimae,167047.0,87.0,10612.0,2.0,41.0,4493.0,1.0
+HOTEL MYSTAYS Kiyosumi shirakawa,192144.0,72.0,26672.0,16.0,45.0,5067.0,8.0
+APA Hotel Asakusa Shin Okachimachi Ekimae,337779.0,57.0,26290.0,11.0,50.0,5067.0,5.0
+호텔 선루트 스텔라 우에노(Hotel Sunroute Stellar Ueno),177612.0,49.0,24569.0,8.0,38.0,6501.0,10.0
+APA Hotel Ueno Inaricho Ekikita,247207.0,54.0,26290.0,8.0,44.0,5927.0,8.0
+APA 호텔 아사쿠사 다와라마치 에키마에(APA Hotel Asakusa Tawaramachi Ekimae),256827.0,56.0,26290.0,8.0,43.0,5067.0,10.0
+리치몬드 호텔 프리미어 무사시코스기(Richmond Hotel Premier Musashikosugi),186617.0,80.0,32695.0,5.0,47.0,5449.0,7.0
+hotel MONday Premium TOYOSU,315602.0,112.0,12428.0,1.0,51.0,8700.0,1.0
+우에노 호텔(Ueno Hotel),257528.0,54.0,24569.0,13.0,43.0,6501.0,15.0
+Agora Place Tokyo Asakusa,194964.0,55.0,26290.0,7.0,42.0,5067.0,9.0
+아파 호텔 스가모 에키마에(APA Hotel Sugamo Ekimae),442180.0,54.0,26194.0,6.0,44.0,5067.0,4.0
+APA Hotel Ueno Ekimae,372685.0,53.0,24569.0,12.0,42.0,6501.0,14.0
+hotel MONday Akihabara Asakusabashi,171422.0,89.0,10612.0,3.0,42.0,4493.0,3.0
+APA 호텔 도쿄 이타바시 에키마에(APA Hotel Tokyo Itabashi Ekimae),230234.0,67.0,26290.0,6.0,54.0,5067.0,10.0
+JR-East Hotel Mets Komagome,345136.0,50.0,26003.0,4.0,47.0,6788.0,7.0
+Serorin Light Hotel Tokyo,267973.0,61.0,26290.0,13.0,51.0,5067.0,6.0
+KOKO HOTEL Residence Asakusa Tawaramachi,195850.0,56.0,26290.0,8.0,43.0,5067.0,10.0
+우에노 토우가네야 호텔(Ueno Touganeya Hotel),261128.0,49.0,24569.0,8.0,40.0,6501.0,12.0
+Tosei Hotel Cocone Ueno,272402.0,47.0,24569.0,6.0,40.0,6501.0,12.0
+오크 호텔 에도(Oak Hotel Edo),182844.0,66.0,26290.0,12.0,40.0,4493.0,5.0
+MONday Apart Premium UENO,256829.0,53.0,24569.0,12.0,38.0,6501.0,10.0
+MONday Apart Ueno Shinokachimachi,257112.0,57.0,26290.0,11.0,45.0,6501.0,17.0
+미마루 도쿄 우에노 이나리초(MIMARU TOKYO UENO INARICHO),170752.0,55.0,24569.0,14.0,44.0,5927.0,8.0
+미마루 도쿄 우에노 노스(MIMARU TOKYO UENO NORTH),166664.0,54.0,24569.0,13.0,42.0,6501.0,14.0
+아파 호텔 아사쿠사바시-에키키타(APA Hotel Asakusabashi-Ekikita),154554.0,62.0,26194.0,8.0,43.0,4493.0,4.0
+APA Hotel Ueno Ekikita,367561.0,53.0,24569.0,12.0,42.0,6501.0,14.0
+우에노 어번 호텔(Ueno Urban Hotel),272021.0,51.0,24569.0,10.0,40.0,6501.0,12.0
+Tosei Hotel Cocone Asakusa Kuramae,188986.0,62.0,26290.0,12.0,40.0,5067.0,7.0
+APA Hotel Komagome Ekimae,556071.0,53.0,26003.0,7.0,50.0,6788.0,10.0
+GreenHotel,273601.0,53.0,24569.0,12.0,39.0,6501.0,11.0
+호텔 빌라 퐁텐 도쿄-우에노 오카치마치(Hotel Villa Fontaine Tokyo-Ueno Okachimachi),278730.0,57.0,26290.0,14.0,45.0,6501.0,17.0
+플렉스스테이 인 에코다(FLEXSTAY INN Ekoda),374104.0,73.0,28106.0,12.0,66.0,5545.0,10.0
+도쿄 우에노 뉴 이즈 호텔 (Tokyo Ueno New Izu Hotel),305682.0,57.0,26003.0,11.0,42.0,6501.0,14.0
+도큐 스테이 몬젠-나카초(Tokyu Stay Monzen-Nakacho),385265.0,70.0,26290.0,9.0,40.0,5640.0,5.0
+Hotel Comfact,388818.0,56.0,26003.0,12.0,44.0,6501.0,16.0
+Tabist Hiromas Hotel Kura,295850.0,44.0,6501.0,16.0,44.0,6501.0,16.0
+Sutton Place Hotel Ueno,503799.0,44.0,6501.0,16.0,44.0,6501.0,16.0
+호텔 게스트1 우에노 에키마에(HOTEL Guest1 Ueno Ekimae),276711.0,44.0,6501.0,16.0,44.0,6501.0,16.0
+HOTEL LiVEMAX BUDGET Higashi Ueno,227677.0,44.0,6501.0,16.0,51.0,4493.0,11.0
+호텔 마이스테이스 우에노 이나리초(HOTEL MYSTAYS Ueno Inaricho),217340.0,55.0,26290.0,9.0,44.0,5927.0,8.0
+stayme THE HOTEL Ueno,249922.0,52.0,24569.0,11.0,41.0,6501.0,13.0
+Ostay UENO Hotel Apartment,392290.0,48.0,24569.0,12.0,49.0,6501.0,13.0
+HOTEL LiVEMAX Asakusabashi-Eki Kitaguchi,395556.0,61.0,26194.0,7.0,41.0,4493.0,2.0
+Hotel Trend Asakusa Tawaramachi,222876.0,57.0,26290.0,9.0,43.0,5067.0,10.0
+호텔 선타르가스 우에노(Hotel Suntargas Ueno),229297.0,48.0,24569.0,7.0,41.0,6501.0,13.0
+Hotel Mid In Kuramae Ekimae,276666.0,64.0,26290.0,16.0,41.0,4493.0,1.0
+FL Hotel Asakusa,243530.0,60.0,26290.0,14.0,50.0,5927.0,14.0
+Tabist Hiromas Hostel in Ueno,194918.0,57.0,26003.0,13.0,45.0,6501.0,17.0
+웹 호텔 도쿄 아사쿠사바시(Web Hotel Tokyo Asakusabashi),260724.0,59.0,26194.0,5.0,40.0,4493.0,11.0
+Tabist Hiromas Hotel Kotobuki,236640.0,60.0,26290.0,12.0,41.0,5067.0,8.0
+FL Hotel Asakusa - Vacation STAY 32665v,266789.0,60.0,26290.0,14.0,50.0,5927.0,14.0
+FL Hotel Asakusa - Vacation STAY 32678v,278883.0,60.0,26290.0,14.0,50.0,5927.0,14.0
+Hotel Suntargas Ueno - Vacation STAY 08468v,284625.0,48.0,24569.0,7.0,41.0,6501.0,13.0
+Hotel Suntargas Ueno - Vacation STAY 08474v,285807.0,48.0,24569.0,7.0,41.0,6501.0,13.0
+Uhome Ueno Apartment 4,302399.0,56.0,26290.0,10.0,45.0,5927.0,9.0
+IKIDANE Residential Hotel Komagome,235937.0,54.0,26003.0,8.0,51.0,6788.0,11.0
+HOTEL LiVEMAX Ueno-Ekimae,342077.0,52.0,24569.0,11.0,45.0,4876.0,10.0
+Hotel Cocoro Inn Asakusa Kuramae,351623.0,62.0,26290.0,14.0,43.0,4493.0,3.0
+HOTEL LiVEMAX BUDGET Nippori,336556.0,48.0,24569.0,11.0,49.0,5927.0,9.0
+HOTEL K3 asakusa,222567.0,67.0,26577.0,4.0,47.0,5067.0,14.0
+아사쿠사 호텔 하타고(Asakusa Hotel Hatago),323455.0,62.0,26290.0,11.0,37.0,5067.0,4.0
+아파 호텔 도쿄 시오미 에키마에(APA Hotel Tokyo Shiomi Ekimae),254926.0,73.0,27915.0,12.0,48.0,7266.0,7.0
+Far East Village Hotel Tokyo  Asakusa,174401.0,57.0,26290.0,9.0,43.0,5067.0,10.0
+아파 호텔 TKP 닛포리 에키마에(APA Hotel TKP Nippori Ekimae),200032.0,39.0,24569.0,2.0,46.0,4876.0,6.0
+Hotel Tokyo Trip,216848.0,44.0,24569.0,7.0,48.0,4876.0,6.0
+Hotel Trend Tobu Asakusa-Eki Kita,251722.0,60.0,26290.0,9.0,41.0,5067.0,8.0
+APA Hotel Asakusa Kuramae Kita,268965.0,62.0,26290.0,14.0,38.0,5067.0,5.0
+APA Hotel Asakusa Kuramae (APA Hotel Asakusa Kuramae),219944.0,61.0,12524.0,6.0,39.0,5067.0,6.0
+APA Hotel Keikyu Kamata-Ekimae,178270.0,83.0,32982.0,8.0,12.0,2008.0,4.0
+호텔 아마네크 아사쿠사 에키마에(Hotel Amanek Asakusa Ekimae),177353.0,59.0,12524.0,4.0,37.0,5067.0,4.0
+호텔 선루트 아사쿠사 (Hotel Sunroute Asakusa),283143.0,56.0,26290.0,8.0,42.0,5067.0,9.0
+APA Hotel Asakusa Kaminarimon Minami,202124.0,60.0,12524.0,5.0,38.0,5067.0,5.0
+APA Hotel Asakusa Ekimae,258723.0,57.0,12524.0,2.0,35.0,5067.0,2.0
+소테츠 프레사 인 도쿄-토요초(Sotetsu Fresa Inn Tokyo-Toyocho),322374.0,79.0,14149.0,4.0,38.0,9560.0,3.0
+APA 호텔 아사쿠사 카미나리몬 (APA Hotel Asakusa Kaminarimon),265267.0,60.0,12524.0,5.0,38.0,5067.0,5.0
+호텔 루트-인 그랜드 도쿄 도요초(Hotel Route-Inn Grand Tokyo Toyocho),212562.0,80.0,14149.0,5.0,39.0,9560.0,4.0
+HOTEL TAVINOS ASAKUSA,269067.0,66.0,26577.0,5.0,49.0,5067.0,16.0
+KOKO HOTEL Residence Asakusa Kappabashi,307026.0,65.0,26577.0,12.0,51.0,5067.0,18.0
+Dormy Inn EXPRESS Asakusa,251641.0,61.0,12524.0,6.0,39.0,5067.0,6.0
+소테츠 프레사 인 도쿄 킨시초(Sotetsu Fresa Inn Tokyo Kinshicho),299444.0,73.0,25143.0,5.0,41.0,5067.0,8.0
+The Kanzashi Tokyo Asakusa,277497.0,68.0,26577.0,5.0,48.0,5067.0,15.0
+Tokyo Bay Shiomi Prince Hotel,284660.0,77.0,13862.0,5.0,48.0,7266.0,7.0
+더 게이트 호텔 아사쿠사 카미나리몬 바이 훌릭(The Gate Hotel Asakusa Kaminarimon by Hulic),384091.0,61.0,12524.0,6.0,39.0,5067.0,6.0
+리치몬드 호텔 아사쿠사(Richmond Hotel Asakusa),355747.0,66.0,26577.0,5.0,44.0,5067.0,11.0
+게스트하우스 와고코로(Guest House Wagokoro),265541.0,45.0,24569.0,9.0,54.0,5067.0,9.0
+ART HOTEL Nippori Lungwood,373773.0,38.0,24569.0,2.0,46.0,4876.0,6.0
+호텔 세레소(Hotel Cerezo),762884.0,45.0,24569.0,9.0,46.0,4876.0,8.0
+KAIKA TOKYO by THE SHARE HOTELS,223186.0,64.0,12524.0,9.0,42.0,5067.0,9.0
+칸데오 호텔 우에노 파크(Candeo Hotels Ueno Park),350174.0,50.0,26003.0,5.0,45.0,4876.0,7.0
+Vessel Inn Ueno Iriya Ekimae,715485.0,55.0,26290.0,9.0,52.0,5927.0,3.0
+슈퍼 호텔 아사쿠사(Super Hotel Asakusa),267466.0,65.0,12524.0,10.0,43.0,5067.0,10.0
+호텔 트렌드 아사쿠사(Hotel Trend Asakusa),218423.0,58.0,26290.0,10.0,43.0,5067.0,10.0
+리치몬드 호텔 프리미어 아사쿠사 인터내셔널(Richmond Hotel Premier Asakusa International),243007.0,65.0,26577.0,4.0,44.0,5067.0,11.0
+Minn Kamata,425134.0,90.0,32695.0,9.0,36.0,4589.0,10.0
+Hotel Amanek Kamata-Eki Mae,203771.0,86.0,32695.0,5.0,21.0,2008.0,13.0
+소테츠 프레사 인 도쿄 카마타 (Sotetsu Fresa Inn Tokyo Kamata),300185.0,87.0,32695.0,6.0,17.0,2008.0,9.0
+APA Hotel Kamata-Ekimae,182729.0,84.0,32982.0,9.0,13.0,2008.0,5.0
+Onyado Nono Asakusa Natural Hot Spring,248535.0,67.0,26577.0,6.0,55.0,5067.0,13.0
+나고미 호텔 닛포리(Nagomi Hotel Nippori),476937.0,46.0,26003.0,4.0,50.0,5067.0,5.0
+B:콘테 아사쿠사(B:CONTE Asakusa),320477.0,66.0,26577.0,5.0,52.0,5067.0,10.0
+花築・浅草和心ホテル,179013.0,65.0,12524.0,10.0,52.0,5067.0,10.0
+호텔 게이한 아사쿠사(Hotel Keihan Asakusa),381574.0,66.0,26577.0,5.0,56.0,5067.0,14.0
+호텔 마이스테이스 닛포리(HOTEL MYSTAYS Nippori),287361.0,41.0,24569.0,5.0,46.0,6501.0,12.0
+TOKYO EAST SIDE HOTEL KAIE,338756.0,76.0,13862.0,4.0,43.0,7266.0,5.0
+Asakusa View Hotel Annex Rokku,255442.0,66.0,26577.0,5.0,56.0,5067.0,14.0
+Residence Condominium KALAHAAI,283264.0,48.0,24569.0,12.0,55.0,5067.0,10.0
+MOXY Tokyo Kinshicho,372175.0,89.0,12810.0,7.0,51.0,5067.0,11.0
+Asakusa Kaede 浅草楓,376343.0,62.0,12524.0,7.0,49.0,5067.0,7.0
+Ai Hotel Keikyu Kamata,663130.0,89.0,27628.0,15.0,12.0,2008.0,4.0
+Vessel Inn Asakusa Tsukuba Express,354662.0,66.0,26577.0,5.0,65.0,7074.0,4.0
+TokyoNEST Nippori,262683.0,41.0,24569.0,5.0,46.0,6501.0,12.0
+Stay SAKURA Tokyo Asakusa Yokozuna Hotel,179235.0,69.0,26577.0,4.0,51.0,5067.0,14.0
+HOTEL ASYL TOKYO KAMATA,271294.0,83.0,27628.0,9.0,30.0,2677.0,8.0
+호텔 윙 인터네셔널 셀렉트 아사쿠사 고마가타(Hotel Wing International Select Asakusa Komagata),267850.0,58.0,12524.0,3.0,40.0,5067.0,3.0
+BON Tokyo Asakusa,341252.0,60.0,12524.0,5.0,43.0,5067.0,6.0
+Hotel SAILS Asakusa,300992.0,64.0,26577.0,5.0,55.0,7074.0,6.0
+Stay SAKURA Tokyo Asakusa Edo no Mai,317800.0,66.0,26577.0,5.0,75.0,10516.0,5.0
+Minn Ueno-Iriya,338812.0,57.0,26290.0,11.0,49.0,5927.0,5.0
+PLAYSIS Asakusa,371704.0,62.0,12524.0,7.0,44.0,5067.0,7.0
+PLAYSIS East Tokyo,338634.0,61.0,12524.0,5.0,43.0,5067.0,4.0
+Tokyo City View Hotel Tabata Station,280353.0,49.0,26003.0,5.0,41.0,6788.0,8.0
+HOTEL LiVEMAX Tokyo Shiomi Ekimae,288904.0,77.0,13862.0,5.0,44.0,7266.0,6.0
+Tosei Hotel Cocone Asakusa,386023.0,69.0,26577.0,4.0,50.0,5067.0,13.0
+호텔 트렌드 아사쿠사 아넥스(Hotel Trend Asakusa Annex),252778.0,58.0,26290.0,10.0,47.0,5067.0,10.0
+아파 호텔 도쿄 키바 (APA Hotel Tokyo Kiba),220185.0,82.0,14436.0,10.0,45.0,9560.0,10.0
+HotelHarmony日暮里ホテルハーモニー,277882.0,40.0,24569.0,4.0,45.0,6501.0,11.0
+MIMARU SUITES Tokyo ASAKUSA,349619.0,60.0,26290.0,9.0,45.0,5067.0,8.0
+kaguya asakusa Women only guest house,382520.0,61.0,12524.0,6.0,44.0,5067.0,7.0
+HOTEL LiVEMAX Asakusa-Ekimae,351939.0,59.0,12524.0,4.0,41.0,5067.0,4.0
+Tora Hotel Asakusa - Vacation STAY 32147v,441214.0,64.0,12524.0,9.0,46.0,5067.0,7.0
+FAV TOKYO 西日暮里,202744.0,46.0,24569.0,10.0,47.0,6501.0,11.0
+AYA Hotel,200482.0,58.0,26290.0,12.0,50.0,5927.0,6.0
+ikoi hotel,191240.0,62.0,26577.0,7.0,53.0,5927.0,9.0
+東駒形コマホテル【Koma Hotel】,254055.0,61.0,12524.0,6.0,44.0,5067.0,7.0
+Creare Ryogoku,136868.0,69.0,26290.0,18.0,67.0,9560.0,12.0
+Tokyo Tourist Inn,280680.0,45.0,24569.0,9.0,42.0,6501.0,10.0
+YADOYA Uguisu,196859.0,63.0,26194.0,18.0,66.0,8413.0,6.0
+호텔 톰스(Hotel Toms),197058.0,88.0,27628.0,14.0,35.0,2677.0,13.0
+Randor Residence Tokyo Grand,354673.0,47.0,24569.0,11.0,46.0,6501.0,14.0
+HOTEL LiVEMAX BUDGET Tokyo Kiba,223968.0,82.0,14436.0,10.0,49.0,5640.0,10.0
+PROSTYLE RYOKAN TOKYO ASAKUSA,268662.0,62.0,26290.0,11.0,47.0,5067.0,10.0
+Super Hotel Tokyo Kinshicho Ekimae,265339.0,87.0,12810.0,5.0,36.0,9560.0,1.0
+Keisei Richmond Hotel Tokyo Oshiage,279406.0,54.0,11376.0,2.0,43.0,5067.0,2.0
+JR-East Hotel Mets Tokyo Bay Shinkiba,358568.0,77.0,13097.0,7.0,45.0,6596.0,15.0
+Hotel Emir,342580.0,67.0,26577.0,9.0,55.0,5927.0,9.0
+Hotel Famy Inn Kinshicho,255000.0,85.0,12810.0,3.0,39.0,9560.0,4.0
+Ai Hotel Keikyu Kamata-ekimae,289672.0,89.0,27628.0,15.0,13.0,2008.0,5.0
+Hotel Asahi Grandeur Fuchu,278023.0,107.0,31070.0,7.0,92.0,17304.0,6.0
+Wakoshi Tobu Hotel,253732.0,82.0,28871.0,7.0,69.0,8126.0,7.0
+Hotel Emit Shibuya - Vacation STAY 40888v,333952.0,92.0,32026.0,11.0,50.0,4589.0,14.0
+MIMARU Tokyo KINSHICHO,204521.0,70.0,13097.0,14.0,43.0,9560.0,8.0
+-Yoshitsuki kaku- Yoshitsuki Apart Hotel,260610.0,75.0,14531.0,10.0,69.0,7074.0,9.0
+Richmond Hotel Premier Tokyo Schole,291371.0,55.0,11376.0,3.0,49.0,5067.0,3.0
+아파 호텔 도쿄 오지마 (APA Hotel Tokyo Ojima),244122.0,70.0,13097.0,13.0,57.0,5067.0,9.0
+THE skM TOKYO HOTEL & DINING,303544.0,67.0,13097.0,11.0,45.0,9560.0,10.0
+KEIKYU EX INN Keikyu Kamata Station,258890.0,100.0,15392.0,8.0,15.0,2008.0,7.0
+스마일 호텔 아사쿠사 (Smile Hotel Asakusa),348314.0,63.0,24569.0,9.0,64.0,6501.0,2.0
+Quintessa Hotel Tokyo Haneda Comic & Books,200279.0,83.0,32982.0,11.0,13.0,2008.0,7.0
+Keisei Richmond Hotel Tokyo Kinshicho,282652.0,60.0,23135.0,14.0,45.0,9560.0,10.0
+Randor Residence Tokyo Suites,276106.0,59.0,21414.0,7.0,58.0,5067.0,15.0
+stayme THE HOTEL Asakusa Riverside,286993.0,59.0,22562.0,15.0,57.0,5067.0,13.0
+HOTEL TABARD TOKYO,226327.0,60.0,23135.0,14.0,47.0,9560.0,12.0
+HOTEL LiVEMAX Kamata Ekimae,304522.0,80.0,32982.0,8.0,12.0,2008.0,4.0
+Smi:re 스테이 오시아게 (Smi:re Stay Oshiage),223284.0,50.0,21414.0,9.0,53.0,5067.0,7.0
+호텔 세일스(Hotel SAILS),184370.0,77.0,26577.0,6.0,58.0,5927.0,7.0
+Randor Residence Tokyo Classic,283764.0,66.0,21414.0,10.0,52.0,5067.0,9.0
+호텔 마이스테이스 가마타(HOTEL MYSTAYS Kamata),262349.0,83.0,32695.0,8.0,26.0,2677.0,4.0
+moire HOTEL YOSHIWARA,400934.0,67.0,24569.0,9.0,65.0,5927.0,14.0
+APA 호텔 가마타에키-히가시(APA Hotel Kamataeki-Higashi),333639.0,83.0,32695.0,8.0,15.0,2008.0,7.0
+HOTEL LiVEMAX Asakusa Sky Front,321294.0,49.0,21414.0,8.0,48.0,9560.0,3.0
+기치조지 도큐 레이 호텔(Kichijoji Tokyu REI Hotel),278397.0,93.0,28489.0,7.0,67.0,12428.0,2.0
+호텔 파크 애비뉴(Hotel Park Avenue),263116.0,60.0,23135.0,14.0,44.0,9560.0,9.0
+HOTEL TABARD TOKYO - Vacation STAY 62622v,421296.0,60.0,23135.0,14.0,47.0,9560.0,12.0
+YADOYA 雀,297379.0,63.0,24569.0,9.0,47.0,7074.0,7.0
+YADOYA 梟,276810.0,61.0,24569.0,7.0,50.0,7074.0,5.0
+Super Hotel Tokyo Kinshicho Ekimae / Vacation STAY 79346,264001.0,59.0,23135.0,13.0,36.0,9560.0,1.0
+Super Hotel Tokyo Kinshicho Ekimae / Vacation STAY 78884,424917.0,59.0,23135.0,13.0,36.0,9560.0,1.0
+zens skytree,420197.0,50.0,21414.0,9.0,51.0,9560.0,6.0
+Soho Asakusa Hotel,210643.0,72.0,26577.0,8.0,59.0,7074.0,10.0
+Henn na Hotel Tokyo Haneda,240612.0,97.0,25908.0,7.0,17.0,2677.0,4.0
+ONE@Tokyo,286887.0,48.0,21414.0,7.0,41.0,5067.0,5.0
+L stay & grow Minami Sunamachi,281516.0,78.0,24569.0,11.0,52.0,5927.0,9.0
+호텔 JAL 시티 하네다 도쿄 웨스트 윙 (Hotel JAL City Haneda Tokyo West Wing),260301.0,98.0,25908.0,7.0,15.0,2677.0,6.0
+KEIKYU EX INN Haneda,289985.0,100.0,25908.0,7.0,7.0,1338.0,5.0
+호텔 JAL 시티 하네다 도쿄(Hotel JAL City Haneda Tokyo),274526.0,97.0,25908.0,6.0,7.0,1816.0,4.0
+호텔 마이스테이스 하네다(HOTEL MYSTAYS Haneda),293209.0,96.0,25908.0,5.0,10.0,2677.0,4.0
+APA Hotel Haneda Anamori Inari Ekimae,230496.0,95.0,25908.0,4.0,6.0,1816.0,3.0
+하네다 인(Haneda Inn),243930.0,96.0,25908.0,6.0,9.0,1816.0,4.0
+Kichijoji Excel Hotel Tokyu,282539.0,97.0,28489.0,11.0,76.0,14627.0,11.0
+ESTABLISHMENT Asakusa,278401.0,50.0,21414.0,9.0,43.0,5067.0,7.0
+Minn Machiya,285966.0,59.0,21414.0,7.0,58.0,8222.0,15.0
+가와사키 킹 스카이프런트 도큐 레이 호텔(Kawasaki King Skyfront Tokyu REI Hotel),341383.0,106.0,33842.0,19.0,24.0,4206.0,9.0
+Akabane Holic Hotel,331932.0,73.0,26290.0,10.0,51.0,7839.0,9.0
+다이와 로이넷 호텔 도쿄 아카바네 (Daiwa Roynet Hotel Tokyo Akabane),249507.0,73.0,26290.0,10.0,51.0,7839.0,9.0
+호텔 코코 그랜드 기타센주(Hotel Coco Grand Kitasenju),307164.0,69.0,26194.0,4.0,55.0,5927.0,5.0
+Super Hotel Tokyo Akabane Eki Minamiguchi,338110.0,73.0,26290.0,10.0,51.0,7839.0,9.0
+JR-East Hotel Mets Akabane,329660.0,73.0,26290.0,10.0,51.0,7839.0,9.0
+Hotel Wing International Tokyo Akabane,287949.0,74.0,26290.0,11.0,52.0,7839.0,10.0
+호텔 노아노아(Hotel Noanoa),356011.0,87.0,33364.0,11.0,21.0,2390.0,8.0
+리치몬드 호텔 도쿄 무사시노 (Richmond Hotel Tokyo Musashino),213952.0,99.0,32695.0,12.0,80.0,14627.0,12.0
+Super Hotel Tokyo Akabane,250584.0,78.0,26290.0,15.0,56.0,7839.0,14.0
+HOTEL LiVEMAX Akabane-Ekimae,252688.0,73.0,26290.0,10.0,51.0,7839.0,9.0
+Hotel Toka,233063.0,70.0,20745.0,11.0,50.0,6979.0,12.0
+Hotel Gran Bali Resort,212688.0,87.0,33364.0,11.0,21.0,2390.0,8.0
+Henn na Hotel Tokyo Nishikasai (Henn na Hotel Tokyo Nishikasai),164301.0,78.0,24569.0,8.0,41.0,12237.0,7.0
+slash kawasaki,282930.0,86.0,33364.0,10.0,20.0,2390.0,7.0
+HOTEL METROPOLITAN KAWASAKI,317047.0,82.0,32695.0,4.0,21.0,2390.0,8.0
+Minn Nishi-Kasai,258315.0,86.0,31357.0,12.0,42.0,12237.0,8.0
+JR-East Hotel Mets Musashisakaii,141274.0,97.0,35468.0,6.0,64.0,7552.0,6.0
+Rembrandt Style Tokyo Nishikasai Grande,255539.0,88.0,31357.0,14.0,44.0,12237.0,10.0
+Sky Heart Hotel Kawasaki,130831.0,92.0,32695.0,14.0,26.0,2390.0,13.0
+Hotel Balian Resort Tomei Kawasaki I.C.,329104.0,116.0,33842.0,18.0,72.0,13097.0,6.0
+HOTEL LiVEMAX BUDGET Kawasaki Ekimae,400222.0,86.0,32695.0,8.0,26.0,2390.0,13.0
+Toyoko Inn Kawaguchi Ekimae,244807.0,93.0,31070.0,9.0,57.0,7839.0,11.0
+Minn Kasai,351011.0,68.0,15296.0,3.0,31.0,10516.0,1.0
+Residential Hotel Bevel Tokyo,301268.0,64.0,26386.0,13.0,66.0,6883.0,14.0
+Tokyo Bay Maihama Hotel First Resort,313865.0,71.0,18164.0,10.0,40.0,9560.0,10.0
+SG Premium KASAI,272889.0,70.0,15296.0,5.0,33.0,10516.0,3.0
+도쿄 베이 마이하마 호텔(Tokyo Bay Maihama Hotel),274803.0,78.0,18164.0,60.0,48.0,9560.0,20.0
+SG Premium KASAI - Vacation STAY 44266v,285091.0,70.0,15296.0,5.0,33.0,10516.0,3.0
+SG Premium KASAI - Vacation STAY 44284v,282280.0,70.0,15296.0,5.0,33.0,10516.0,3.0
+SG Premium KASAI - Vacation STAY 44353v,202856.0,70.0,15296.0,5.0,33.0,10516.0,3.0
+HOTEL LiVEMAX Kasai Ekimae,370326.0,69.0,15296.0,4.0,35.0,10516.0,5.0
+APA Hotel Ayase Ekimae,313265.0,58.0,26290.0,4.0,60.0,8222.0,10.0
+Smile Hotel Kawaguchi,366755.0,94.0,31070.0,10.0,58.0,7839.0,12.0
+호텔 오쿠라 도쿄 베이 (Hotel Okura Tokyo Bay),253704.0,84.0,18164.0,60.0,54.0,9560.0,20.0
+Grand Nikko Tokyo Bay Maihama,291675.0,80.0,18164.0,60.0,50.0,9560.0,20.0
+비즈니스 인 그랜저 후추(Business Inn Grandeur Fuchu),355251.0,110.0,37284.0,8.0,83.0,9369.0,9.0
+Toyoko Inn Wako-shi Ekimae,333165.0,81.0,28871.0,8.0,73.0,8126.0,8.0
+쉐라톤 그란데 도쿄 베이 호텔(Sheraton Grande Tokyo Bay Hotel),403018.0,78.0,14722.0,9.0,43.0,9560.0,13.0
+HOTEL LiVEMAX Tokyo Ayase-Ekimae,288479.0,60.0,26290.0,6.0,62.0,6310.0,9.0
+HOTEL LiVEMAX BUDGET Yokohama Tsurumi,320827.0,97.0,32695.0,9.0,21.0,2868.0,5.0
+코코 스테이 니시카와구치 에키마에(Coco Stay Nishikawaguchi Ekimae),259569.0,93.0,31070.0,7.0,60.0,6788.0,6.0
+Bay Hotel Urayasu-ekimae,377033.0,77.0,13671.0,5.0,42.0,12237.0,6.0
+Tabist Wa Style Tokyo,377665.0,96.0,31070.0,10.0,63.0,6788.0,9.0
+히요리 호텔 마이하마(Hiyori Hotel Maihama),246117.0,103.0,15105.0,8.0,71.0,11472.0,11.0
+Nishikawaguchi Station Hotel Stay Lounge,312007.0,94.0,31070.0,8.0,61.0,6788.0,7.0
+호텔 마이스테이스 마이하마(HOTEL MYSTAYS Maihama),161243.0,71.0,18164.0,8.0,41.0,9560.0,8.0
+Restay lagoon,243087.0,51.0,10898.0,9.0,51.0,6883.0,9.0
+HOTEL Nishikawaguchi Weekly - Vacation STAY 43449v,244357.0,94.0,31070.0,8.0,61.0,6788.0,7.0
+Vail sta Takenotsuka,344277.0,71.0,27915.0,7.0,73.0,8030.0,5.0
+신 요코하마 프린스 호텔(Shin Yokohama Prince Hotel),467228.0,83.0,57360.0,7.0,38.0,8604.0,1.0
+SPA&HOTEL EURASIA MAIHAMA,323176.0,81.0,13671.0,9.0,47.0,9560.0,14.0
+호텔 아소시아 신-요코하마(Hotel Associa Shin-Yokohama),192755.0,81.0,57360.0,5.0,37.0,8604.0,2.0
+HOTEL LiVEMAX Saitama-Asaka-Ekimae,297034.0,86.0,28871.0,10.0,79.0,8126.0,10.0
+플렉스스테이 인 신우라야수(FLEXSTAY INN Shinurayasu),221816.0,89.0,12619.0,16.0,50.0,10994.0,4.0
+Hotel ZALA,238778.0,91.0,57360.0,15.0,44.0,8604.0,9.0
+HOTEL LiVEMAX Shinyokohama,222903.0,88.0,57360.0,12.0,42.0,8604.0,7.0
+HOTEL EURASIA MAIHAMA ANNEX,153308.0,102.0,14053.0,9.0,67.0,10994.0,7.0
+비즈니스 호텔 라 피렌체(Business Hotel La Firenze),170048.0,78.0,29923.0,5.0,84.0,8317.0,13.0
+오리엔탈 호텔 도쿄 베이(Oriental Hotel Tokyo Bay),163443.0,78.0,12619.0,5.0,52.0,10516.0,2.0
+APA Hotel Saitama Yatsuka Ekimae,221549.0,78.0,29254.0,14.0,71.0,9178.0,13.0
+Toyoko Inn Kita-toda-eki Higashi-guchi,285261.0,74.0,27628.0,10.0,69.0,7552.0,9.0
+왈라비 하우스(Wallaby House),204712.0,83.0,27628.0,13.0,68.0,7552.0,11.0
+호텔 에미온 도쿄 베이(Hotel Emion Tokyo Bay),390962.0,87.0,12619.0,14.0,59.0,10516.0,9.0
+Sky Heart Hotel Koiwa - Vacation STAY 49103v,430955.0,69.0,8413.0,2.0,58.0,6883.0,2.0
+Sky Heart Hotel Koiwa,327257.0,69.0,8413.0,2.0,58.0,6883.0,2.0
+이비스 스타일 도쿄 베이 (ibis Styles Tokyo Bay),131470.0,74.0,12906.0,8.0,29.0,4111.0,7.0
+Toyoko Inn Kita-asaka-eki Nishi-guchi,280899.0,84.0,16252.0,4.0,80.0,8700.0,8.0
+Restay Fuchu (Adult Only),251779.0,111.0,19789.0,10.0,81.0,7648.0,20.0
+Hyatt Regency Tokyo Bay,170265.0,94.0,14053.0,7.0,71.0,9751.0,18.0
+CVS 베이 호텔(CVS Bay Hotel),327139.0,61.0,11376.0,5.0,50.0,11185.0,14.0
+CVS 베이 호텔 뉴 빌딩 (CVS Bay Hotel New Building),186800.0,61.0,11376.0,5.0,50.0,11185.0,14.0
+Toyoko Inn Yashio Ekimae,156901.0,67.0,29062.0,8.0,72.0,11472.0,2.0
+HOTEL LiVEMAX BUDGET Fuchu,306964.0,109.0,29349.0,13.0,74.0,7648.0,13.0
+JR-East Hotel Mets Kokubunji,193059.0,104.0,30114.0,6.0,72.0,8413.0,6.0
+HOTEL LiVEMAX Kitafuchu,158484.0,116.0,19789.0,15.0,96.0,9751.0,6.0
+HOTEL LiVEMAX BUDGET Fuchu Annex,189272.0,111.0,29349.0,15.0,76.0,7648.0,15.0
+라젠트 호텔 도쿄 베이(La'gent Hotel Tokyo Bay),166827.0,98.0,14053.0,9.0,63.0,12619.0,19.0
+미츠이 가든 호텔 프라나 도쿄 베이(Mitsui Garden Hotel Prana Tokyo Bay),183162.0,95.0,14053.0,8.0,53.0,10516.0,3.0
+Smile Hotel Kitaasaka,184212.0,85.0,16252.0,5.0,92.0,17973.0,5.0
+도쿄 베이 토큐 호텔(Tokyo Bay Tokyu Hotel),274865.0,97.0,14053.0,6.0,48.0,10516.0,1.0
+호텔 뉴 사이타마(Hotel New Saitama),156212.0,77.0,14722.0,7.0,65.0,9464.0,10.0
+HOTEL BANJAR,164312.0,114.0,16252.0,31.0,111.0,18260.0,3.0
+HOTEL K VILLAGE,226081.0,125.0,18164.0,24.0,111.0,17973.0,4.0
+Toyoko Inn Shiki eki Higashi guchi,153944.0,91.0,29445.0,10.0,85.0,8700.0,10.0
+호텔 플럼(Hotel Plumm),344570.0,95.0,41777.0,9.0,51.0,5832.0,13.0
+리치몬드 호텔 요코하마 에키마에(Richmond Hotel Yokohama Ekimae),292942.0,90.0,41777.0,4.0,29.0,3250.0,4.0
+Villa Fontaine Grand Haneda Airport,246742.0,104.0,30592.0,14.0,7.0,2103.0,5.0
+우라와 워싱턴 호텔(Urawa Washington Hotel),506310.0,77.0,28489.0,12.0,61.0,8413.0,8.0
+Toyoko Inn Matsudo eki Higashi guchi,256664.0,62.0,27628.0,5.0,59.0,12428.0,4.0
+ビジネスホテルマーキュリー（ロイヤルイングループ）,305259.0,107.0,29349.0,8.0,78.0,7935.0,8.0
+JR-East Hotel Mets Urawa,202463.0,73.0,28489.0,9.0,58.0,8413.0,5.0
+HOTEL UNIZO Yokohamaeki-West,186660.0,88.0,30114.0,14.0,40.0,5354.0,6.0
+The Kahala Hotel & Resort Yokohama,168407.0,124.0,35372.0,10.0,43.0,3250.0,18.0
+요코하마 베이 쉐라톤 호텔 & 타워 (Yokohama Bay Sheraton Hotel and Towers),342759.0,85.0,30114.0,11.0,31.0,3250.0,6.0
+Kumegawa Wing Hotel,231197.0,110.0,29349.0,11.0,81.0,7935.0,11.0
+HOTEL LiVEMAX Yokohama-Eki Nishiguchi,211957.0,91.0,30114.0,17.0,41.0,5354.0,9.0
+We Home-Hostel & Kitchen- - Vacation STAY 41292v,263812.0,75.0,7839.0,8.0,62.0,13958.0,10.0
+We Home-Hostel & Kitchen- - Vacation STAY 16690v,269933.0,75.0,7839.0,8.0,62.0,13958.0,10.0
+Matsudo Grand Hotel,259310.0,62.0,27628.0,5.0,57.0,12428.0,2.0
+APA Hotel & Resort Yokohama Bay Tower,445457.0,105.0,32026.0,16.0,47.0,5162.0,10.0
+소테츠 프레사 인 요코하마 사쿠라기초(Sotetsu Fresa Inn Yokohama Sakuragi-cho),267523.0,98.0,30114.0,16.0,41.0,4684.0,9.0
+Yokohama Tokyu REI Hotel,285301.0,99.0,32217.0,16.0,41.0,5640.0,11.0
+Mitsui Garden Hotel Yokohama Minatomirai Premier,202516.0,100.0,32217.0,17.0,42.0,7744.0,3.0
+인터컨티넨탈 요코하마 그랜드(InterContinental Yokohama Grand  an IHG Hotel),215490.0,115.0,35372.0,1.0,45.0,7648.0,1.0
+APA Hotel Nishifunabashi Ekimae,263970.0,76.0,9464.0,2.0,54.0,12524.0,6.0
+뉴 오타니 인 요코하마 프리미엄(New Otani Inn Yokohama Premium),192757.0,93.0,30114.0,11.0,36.0,4684.0,4.0
+요코하마 로열 파크 호텔(Yokohama Royal Park Hotel),440843.0,113.0,35372.0,60.0,39.0,4684.0,7.0
+The Westin Yokohama,280742.0,97.0,32217.0,14.0,39.0,5354.0,7.0
+Oakwood Suites Yokohama,379756.0,100.0,30114.0,18.0,43.0,4684.0,11.0
+InterContinental Yokohama Pier 8  an IHG Hotel,392007.0,123.0,35372.0,8.0,52.0,6788.0,6.0
+Restay Onoji (Adult Only),333033.0,136.0,32408.0,8.0,92.0,11185.0,14.0
+호텔 테라스 요코하마 (Hotel Terrace Yokohama),403794.0,96.0,30114.0,14.0,40.0,3537.0,11.0
+Far East Village Hotel  Yokohama,354643.0,95.0,30114.0,13.0,39.0,3537.0,10.0
+호텔 뉴 그랜드 (Hotel New Grand),289510.0,107.0,32313.0,14.0,37.0,7648.0,4.0
+Hyatt Regency Yokohama,238637.0,107.0,32313.0,17.0,37.0,7648.0,1.0
+아파 호텔 요코하마 칸나이(APA Hotel Yokohama Kannai),325082.0,96.0,30879.0,12.0,39.0,4684.0,5.0
+호텔 JAL 시티 간나이 요코하마(Hotel JAL City Kannai Yokohama),296879.0,95.0,32122.0,13.0,40.0,4684.0,6.0
+호텔 마이스테이스 요코하마 간나이(HOTEL MYSTAYS Yokohama Kannai),352101.0,95.0,32122.0,13.0,40.0,4684.0,6.0
+Toyoko Inn Misato-chuo Ekimae,268870.0,73.0,29827.0,9.0,68.0,11472.0,17.0
+Chisun Hotel Yokohama Isezakicho,258140.0,98.0,32504.0,13.0,40.0,3537.0,11.0
+Hotel BaliBali 伊勢佐木,239773.0,98.0,31452.0,17.0,37.0,3537.0,8.0
+요코하마 만다린 호텔 (Yokohama Mandarin Hotel),197091.0,94.0,31452.0,13.0,33.0,3537.0,4.0
+Hotel Mielparque Yokohama,201352.0,127.0,37475.0,2.0,48.0,5449.0,7.0
+ホテルパセラの森 横浜関内,403816.0,97.0,31452.0,16.0,36.0,3537.0,7.0
+HOTEL LiVEMAX Yokohama Kannai Ekimae,247488.0,97.0,30879.0,13.0,40.0,4684.0,6.0
+HOTEL LiVEMAX Yokohama Motomachi Ekimae,284031.0,107.0,32313.0,14.0,35.0,7648.0,2.0
+Rembrandt Style Yokohama Kannai,231805.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL LiVEMAX Yokohama Stadium Mae,262248.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Yokohama Sakuragicho Town Hotel,334283.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Yokohama Town Hotel,322614.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+플렉스테이 인 사쿠라기초 (Flexstay Inn Sakuragicho),331256.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+다이와 로이넷 호텔 요코하마 간나이(Daiwa Roynet Hotel Yokohama Kannai),347558.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Route-Inn Kitamatsudo Ekimae,305815.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+ANA 인터콘티넨털 도쿄(ANA InterContinental Tokyo  an IHG Hotel),488033.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+아파 호텔 한조몬 히라가와초(APA Hotel Hanzomon Hirakawacho),334136.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Sotetsu Fresa Inn Higashi Shinjuku,465117.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 안 신주쿠 가부키초 (성인 전용)(HOTEL AN Shinjuku Kabukicho (Adult Only)),281603.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel BaliAn Resort Shinjuku Glamping,288525.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Villa Fontaine Grand Tokyo-Shiodome,236423.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+The Royal Park Canvas - Ginza 8,336082.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+APA Hotel Ginza Shintomicho Ekimae Kita - Former APA Hotel Shintomicho Ekikita,427636.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 빌라 폰테인 도쿄-짐보초(Hotel Villa Fontaine Tokyo-Jimbocho),230035.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+KOKO HOTEL Ginza-1chome,686238.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+아파 호텔 츠키지-에키 미나미(APA Hotel Tsukiji-eki Minami),338558.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+SPATIUM GINZA,618112.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Yaenomidori Tokyo,316341.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+컴포트 호텔 도쿄 칸다 (Comfort Hotel Tokyo Kanda),212072.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL LiVEMAX BUDGET Korakuen,490265.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+도미 인 아키하바라 (Dormy Inn Akihabara),305986.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+APA 호텔 니혼바시 바쿠로초 에키-기타(APA Hotel Nihombashi Bakurocho Eki-Kita),289765.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+소테츠 프레사 인 우에노 오카치마치(Sotetsu Fresa Inn Ueno-Okachimachi),246954.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 뉴 그린 오카치마치(Hotel New Green Okachimachi),285162.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL LiVEMAX Toyosu-Ekimae,286225.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+MIMARU Tokyo IKEBUKURO,196598.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL GRAPHY NEZU - Vacation STAY 82507,283420.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 그라피 네주(Hotel Graphy Nezu),227312.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Ueno Urban Hotel Annex,429405.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+ＥＮＴ　ＴＥＲＲＡＣＥ　ＡＳＡＫＵＳＡ,241051.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+아사쿠사 뷰 호텔 (Asakusa View Hotel),465617.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL TAVINOS ASAKUSA - Vacation STAY 64893,304931.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Nippori hotel3000,245261.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+KEIKYU EX INN Kamata,311688.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Oriental Express Tokyo Kamata,387674.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Charire Kichijoji,330010.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+누메로 우노 도쿄(Numero Uno Tokyo),492821.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+어바인 도쿄 우에노 기타센주(Urbain Tokyo Ueno Kitasenju),198231.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+알스 포레스트 인(R's Forest Inn),186550.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Smile Hotel Tokyo Ayase Ekimae,267012.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Four Stories Hotel Maihama Tokyo Bay,412257.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+마이스테이스 신 우라야스 컨퍼런스 센터(MYSTAYS Shin Urayasu Conference Center),300991.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Sky Heart Hotel Koiwa - Vacation STAY 49101v,329844.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+the square hotel Yokohama Minatomirai,129330.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+JR-East Hotel Mets Yokohama,408915.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+요코하마 베이 호텔 도큐(The Yokohama Bay Hotel Tokyu),486471.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Near Shibuya Station & 3Bed Apartment,323270.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Eternity APARTMENT HOTEL 渋谷道玄坂,348141.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Near Shibuya Station Private 4 Room,362346.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+H2O Stay Shibuya Anon #B102,483383.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+H2O Stay Shibuya Anon #A202,415468.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Tokyo's best spot Shibuya! 3person room Free Wi-Fi,385902.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+NEW! Downtown Shibuya Prime Unit  Perfect location,170687.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+渋谷26 家族や仲間と楽しく過ごそう！光回線完備,446218.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+【渋谷36】光回線完備 渋谷の人気スペース,445913.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Shibuya45 光回線完備でネットもサクサク,408992.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Salon Shibuya - Vacation STAY 78183,427431.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Sakura and Autumn leaves,454343.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Shibuya Shoto,367851.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+☆Cozy Japanese style room☆,333619.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Oku-Shibu Residence,291087.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Square Shibuya 909,302256.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Square Shibuya 407,273458.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Emit Shibuya - Vacation STAY 40894v,340493.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Turn Table,334428.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 아시아 센터 오브 재팬(Hotel Asia Center of Japan),399292.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+니혼 세이넨칸 호텔(Nihon Seinenkan Hotel),496873.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Henn na Hotel Tokyo Akasaka,518715.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Best Western Hotel Fino Tokyo Akasaka,211774.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Mitsui Garden Hotel Roppongi Tokyo Premier,210369.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 뉴 오타니 도쿄 가든 타워(Hotel New Otani Tokyo Garden Tower),508846.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+칸데오 호텔 도쿄 롯폰기(Candeo Hotels Tokyo Roppongi),683850.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Rose Garden Shinjuku - Vacation STAY 72163v,210641.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+아카사카 그란벨 호텔(Akasaka Granbell Hotel),290046.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL 1899 TOKYO,201817.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL GROOVE SHINJUKU  A PARKROYAL Hotel,294931.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL AMANEK Shinjuku Kabukicho,267663.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+산코 인 그랜드 도쿄 하마마쓰초(Sanco Inn Grande Tokyo Hamamatsucho),284172.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+TOKYO E JOY INN（Okubo branch in Shinjuku）,411000.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Le Glaciel 5 4F - Vacation STAY 79673v,468664.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+긴자 그랜드 호텔 (Ginza Grand Hotel),269495.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Vintage Kagurazaka Tokyo,409266.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Henn na Hotel Tokyo Ginza,499098.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Daiwa Roynet Hotel Ginza PREMIER,357845.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+도큐 스테이 긴자(Tokyu Stay Ginza),320463.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 친잔소 도쿄(Hotel Chinzanso Tokyo),223656.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+JR-East Hotel Mets Mejiro,266229.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+플렉스스테이 인 이다바시(FLEXSTAY INN Iidabashi),220637.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+toggle hotel suidobashi TOKYO,285970.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+게이오 프레소 인 도쿄 스테이션 야에스(Keio Presso Inn Tokyo Station Yaesu),318453.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+슈퍼 호텔 시나가와 아모노-요코쵸(Super Hotel Shinagawa Aomono-Yokocho),218838.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+nestay inn tokyo kagurazaka 02,781039.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+LANG Hotel Ginza # 1Floor 1Room# with Kitchen 從東銀座站步行3分鐘 帶廚房 हिगाशी गिन्ज़ा स्टेशन से 3 मिनट की पैदल दूरी पर रसोई के साथ,555720.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+더 도쿄 스테이션 호텔 (The Tokyo Station Hotel),772736.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Resol Akihabara,1424922.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Hotel Route-Inn Tokyo Asagaya,485300.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+DEL style Ikebukuro Higashiguchi by Daiwa Roynet Hotel,1455899.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+스마일 호텔 도쿄 아사가야(Smile Hotel Tokyo Asagaya),191089.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+the b ochanomizu,206332.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+GATE STAY Premium Ginza Shintomicho,220566.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+힐튼 도쿄 오다이바(Hilton Tokyo Odaiba),383293.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+ICI HOTEL Asakusabashi,236647.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Amanecer Hotel,555720.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+MONday Apart Akihabara Southeast,220297.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+MONday Apart Premium AKIHABARA,220297.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+도큐 스테이 이케부쿠로(Tokyu Stay Ikebukuro),276325.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+HOTEL CHECK INN BALI adult only,521636.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Artsy Inn東日本橋,211347.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 레이(Hotel Rei),259220.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Jing House akihabara Ryokan - Vacation STAY 11566v,232792.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+R&B Hotel Otsuka Eki Kitaguchi - Vacation STAY 14229v,328128.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+cocoro house akihabara,184733.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Le Tour Hotel Higashi-Kanda 楽途ホテル東神田,330041.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 마이스테이스 우에노 이스트(HOTEL MYSTAYS Ueno East),206421.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+미마루 도쿄 우에노 이스트(MIMARU TOKYO UENO EAST),178158.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Petit Grande Miyabi,174327.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+NOHGA HOTEL UENO TOKYO,166147.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Super Hotel JR Ueno Iriyaguchi,551047.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Super Hotel Premier Musashi Kosugi Ekimae,162833.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+스마일 호텔 수가모(Smile Hotel Sugamo),200466.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Minn Higashi-Ueno,198625.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+No Service Hotel,250441.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+플렉스스테이 인 다마가와(FLEXSTAY INN Tamagawa),341480.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+CHA-AN HOTEL UENO,315417.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+hotel MONday Asakusa,153374.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+LANDABOUT TOKYO,182944.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Asakusa Tobu Hotel,226461.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Stay SAKURA Tokyo ASAKUSA ART DECO HOTEL,158043.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+japan house asakusa,236107.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+슈퍼 호텔 도쿄 JR 가마타 니시구치(Super Hotel Tokyo JR Kamata Nishiguchi),200878.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+JR-East Hotel Mets Mizonokuchi,143389.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 마이스테이스 아사쿠사(HOTEL MYSTAYS Asakusa),382664.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+레드 루프 인 카마타 / 하네다 도쿄(Red Roof Inn Kamata / Haneda Tokyo),581816.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+AN HOTEL,425549.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+MIMARU TOKYO ASAKUSA STATION,290109.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+호텔 루트 인 도쿄 카마타(Hotel Route-Inn Tokyo Kamata),180095.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Kaminarimon Ryokan,174708.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+New City Hotel,195400.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+치선 인 카마타(Chisun Inn Kamata),191492.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+사쿠라 스카이 호텔(Sakura Sky Hotel),348730.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Super Hotel Tokyo Kameido,275476.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Chisun Hotel Kamata,328351.0,35.0,7648.0,2.0,35.0,7648.0,2.0
+Business Hotel Sunpalace,234141.0,53.0,26194.0,7.0,52.0,5927.0,4.0
+Sakura Sky Hotel - Vacation STAY 18449v,403080.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Sakura Sky Hotel - Vacation STAY 18445v,344679.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Super Hotel Tokyo Kinshicho Ekimae / Vacation STAY 78889,279047.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Hotel Cadenza Tokyo,228785.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+호텔 마이스테이스 가메이도(HOTEL MYSTAYS Kameido),384729.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Theatel Haneda Ⅱ,233543.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+APA Hotel TKP Keikyu Kawasaki Ekimae,228288.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+japan house sky tree,356795.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Hotel Tokyo Hub - Vacation STAY 27674v,250159.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+IKIDANE Cozy Hotel Haneda Airport,223876.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Rembrandt Style Tokyo Nishikasai,431804.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+호텔 아이말레 하네다(Hotel Imalle Haneda),247508.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+호텔 루미에르 니시카사이(Hotel Lumiere Nishikasai),156831.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+다이와 로이넷 호텔 가와사키(Daiwa Roynet Hotel Kawasaki),307888.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Sotetsu Fresa Inn Kawasaki-Higashiguchi,321470.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Dormy Inn Kawasaki Natural Hot Spring,227966.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+하네다 엑셀 호텔 도큐(Haneda Excel Hotel Tokyu),144505.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+APA 호텔 TKP 도쿄 니시-카사이(APA Hotel TKP Tokyo Nishi-Kasai),135713.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+HOTEL Enmichi,205681.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Kawasaki Station Inn,233169.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+KEIKYU EX INN Keikyu Kawasaki-Station,138357.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+The Grandeur Hotel,205228.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+JR-East Hotel Mets Kawasaki,186048.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Smile Hotel Tokyo Nishikasai,226882.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Kawasaki Hotel Park,452091.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+펄 호텔 가와사키(Pearl Hotel Kawasaki),443049.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+플렉스스테이 인 가와사키-가이즈카(FLEXSTAY INN Kawasaki Kaizuka),328352.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Sky Heart Hotel Kawasaki / Vacation STAY 80804,555720.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Sky Heart Hotel Kawasaki / Vacation STAY 80788,422158.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+호텔 일 피오레 카사이 (Hotel Il Fiore Kasai),261236.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+신코이와 파크 호텔(Shinkoiwa Park Hotel),248911.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+Super Hotel Tokyo JR Shinkoiwa,218675.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+JR-East Hotel Mets Yokohama Tsurumi,241241.0,52.0,5927.0,4.0,52.0,5927.0,4.0
+토부 호텔 레반트 도쿄 (Tobu Hotel Levant Tokyo),167905.0,70.0,26290.0,9.0,43.0,5067.0,10.0
+로즈 호텔 요코하마(Rose Hotel Yokohama),192671.0,113.0,43976.0,8.0,33.0,7648.0,4.0
+이코노미 호텔 호테이야(Economy Hotel Hoteiya),283530.0,61.0,26194.0,15.0,56.0,7074.0,4.0
+호텔 무사시노 노 모리(Hotel Musashino no Mori),555720.0,113.0,28967.0,16.0,95.0,14818.0,12.0
+灯光旅館 Light hotel,371450.0,60.0,26386.0,5.0,46.0,6883.0,4.0
+쵸후 어번 호텔(Chofu Urban Hotel),371450.0,97.0,28967.0,9.0,79.0,14818.0,5.0
+Henn na Hotel Maihama Tokyo Bay,160726.0,81.0,19598.0,2.0,55.0,10994.0,9.0
+우라야스 뷰포트 호텔(Urayasu Beaufort Hotel),163143.0,72.0,13671.0,5.0,51.0,6310.0,4.0
+HOTEL Nishikawaguchi Weekly - Vacation STAY 43473v,271583.0,76.0,26768.0,9.0,58.0,8700.0,10.0
+호텔 테토라 츠루미(Hotel Tetora Tsurumi),236548.0,98.0,29254.0,11.0,19.0,2868.0,3.0
+신 요코하마 고쿠사이 호텔(Shin-Yokohama Kokusai Hotel),236548.0,91.0,57360.0,9.0,39.0,8604.0,4.0
+마로드 인 도쿄(Marroad Inn Tokyo),555720.0,74.0,28011.0,10.0,44.0,4493.0,12.0
+호텔 모리노 신 유리(Hotel Molino Shin Yuri),418653.0,101.0,29732.0,7.0,81.0,20363.0,4.0
+E Hotel Warabi,235574.0,80.0,27628.0,10.0,62.0,8700.0,11.0
+코트 호텔 신-요코하마 (Court Hotel Shin-Yokohama),181518.0,93.0,57360.0,11.0,41.0,8604.0,6.0
+Hotel Keyaki Gate Tokyo Fuchu,170543.0,104.0,29349.0,8.0,86.0,15200.0,4.0
+후추 어반 호텔(Fuchu Urban Hotel),194920.0,132.0,31548.0,11.0,69.0,15296.0,4.0
+Sky Heart Hotel Koiwa - Vacation STAY 49100v,260533.0,66.0,27150.0,3.0,58.0,6883.0,2.0
+Sky Heart Hotel Koiwa - Vacation STAY 49085v,337926.0,66.0,27150.0,3.0,58.0,6883.0,2.0
+Super Hotel Tozai line Ichikawa Myoden Ekimae,127453.0,73.0,13384.0,6.0,48.0,11472.0,3.0
+Fuchu Urban Hotel Annex,187737.0,106.0,29349.0,10.0,88.0,15200.0,6.0
+Ichikawa Grand Hotel,168446.0,63.0,23518.0,6.0,51.0,6788.0,9.0
+나이스 인 호텔 이치카와 도쿄 베이(Nice Inn Hotel Ichikawa Tokyo Bay),225284.0,75.0,11759.0,5.0,51.0,11185.0,15.0
+Sotetsu Fresa Inn Yokohama Higashiguchi,341522.0,91.0,41777.0,3.0,28.0,3250.0,3.0
+KEIKYU EX INN Yokohama-Station East,159922.0,91.0,41777.0,3.0,28.0,3250.0,3.0
+We Home-Hostel & Kitchen- - Vacation STAY 41418v,141760.0,74.0,21797.0,7.0,59.0,7552.0,10.0
+We Home-Hostel & Kitchen- - Vacation STAY 30096v,198005.0,74.0,21797.0,7.0,59.0,7552.0,10.0
+요코하마 사쿠라기초 워싱턴 호텔(Yokohama Sakuragicho Washington Hotel),219193.0,100.0,41777.0,4.0,43.0,7648.0,10.0
+Hotel Resol Yokohama Sakuragicho,166971.0,102.0,41777.0,6.0,39.0,7648.0,6.0
+컴포트 호텔 요코하마 칸나이 (Comfort Hotel Yokohama Kannai),130860.0,97.0,30879.0,13.0,39.0,7648.0,6.0
+JR-East Hotel Mets Yokohama Sakuragicho,259421.0,98.0,41777.0,2.0,33.0,4684.0,2.0
+리치몬드 호텔 요코하마-바샤미치(Richmond Hotel Yokohama-Bashamichi),205009.0,105.0,43785.0,6.0,39.0,7648.0,6.0
+다이와 로이넷 호텔 요코하마-코엔(Daiwa Roynet Hotel Yokohama-Koen),304128.0,100.0,30879.0,16.0,38.0,7648.0,8.0
+Hotels & Resort Feel,192293.0,118.0,43976.0,13.0,39.0,7648.0,11.0
+브리즈베이 호텔 리조트 & 스파(Breezbay Hotel Resort and Spa),358094.0,100.0,41777.0,4.0,43.0,9751.0,3.0
+nestay suite tokyo shibuya,174595.0,55.0,26003.0,11.0,50.0,4876.0,11.0
+渋谷 広め50m2 2LDK 代々木公園駅徒歩5分 家族におすすめ,490800.0,73.0,26577.0,7.0,37.0,4589.0,6.0
+시부야 도큐 레이 호텔(Shibuya Tokyu REI Hotel),354053.0,81.0,31070.0,4.0,36.0,4589.0,7.0
+THE TOURIST HOTEL & Cafe AKIHABARA,305244.0,58.0,26290.0,13.0,43.0,4589.0,12.0
+Toyoko Inn Tokyo Akiba Asakusabashi-eki Higashi-guchi,191836.0,64.0,12524.0,3.0,42.0,4493.0,3.0
+Hotel Monte Hermana Tokyo,249939.0,59.0,26194.0,13.0,36.0,26481.0,6.0
+ENT TERRACE AKIHABARA,280901.0,60.0,26290.0,10.0,41.0,5640.0,9.0
+스마일 호텔 니혼바시 미츠코시마에 (Smile Hotel Nihombashi Mitsukoshimae),196185.0,61.0,26290.0,8.0,35.0,4493.0,9.0
+Ano Hotel Asakusa,229775.0,63.0,12524.0,8.0,41.0,5067.0,8.0
+HOTEL TABARD TOKYO - Vacation STAY 64544v,255552.0,78.0,25143.0,10.0,46.0,5067.0,13.0
+호텔 네오 루즈(Hotel Neo Rouge),275269.0,66.0,26577.0,9.0,61.0,7074.0,13.0
+Shiro Shibuya,469342.0,83.0,31070.0,6.0,39.0,4589.0,10.0
+아우어즈 인 한큐(Ours Inn Hankyu),380642.0,76.0,26768.0,9.0,30.0,2868.0,15.0
+TOMARU MORISITA HOUSE,214911.0,65.0,26290.0,13.0,48.0,4493.0,5.0
+컴포트 스위트 도쿄 베이(Comfort Suites Tokyo Bay),230785.0,79.0,12237.0,19.0,64.0,10994.0,14.0
+SALON渋谷4A,357116.0,83.0,26577.0,15.0,66.0,10516.0,9.0
+SQUARE渋谷312,542935.0,80.0,26577.0,12.0,57.0,10516.0,8.0
+Sky Heart Hotel Kawasaki - Vacation STAY 97869,555720.0,84.0,28489.0,20.0,26.0,2390.0,13.0
+SLEEPLAB 高輪,272973.0,92.0,13480.0,8.0,27.0,4111.0,4.0
+Lions Mansion Dogenzaka 207,408353.0,77.0,26577.0,9.0,37.0,16921.0,11.0
+LIONS APARTMENT 516,342332.0,76.0,26577.0,9.0,38.0,16921.0,11.0
+H2O Stay Shibuya Anon #A102,317883.0,85.0,27246.0,15.0,43.0,4493.0,15.0
+Kiba no Tsuru Carane Hotel - Vacation STAY 09991v,179611.0,78.0,24474.0,12.0,46.0,12237.0,7.0
+Kiba no Tsuru Carane Hotel - Vacation STAY 40658v,138717.0,80.0,14436.0,6.0,46.0,12237.0,7.0
+H2O Stay Shibuya Anon #B204,477706.0,84.0,33078.0,5.0,43.0,4493.0,15.0
+H2O Stay Shibuya Anon #A203,609397.0,84.0,33078.0,5.0,43.0,4493.0,15.0
+신주쿠 그랑벨 호텔(Shinjuku Granbell Hotel),211160.0,74.0,26290.0,16.0,64.0,14149.0,14.0
+La'gent Hotel Shinjuku Kabukicho,207472.0,71.0,26290.0,13.0,59.0,4876.0,13.0
+APA Hotel Shinjuku Kabukicho Chuo,196026.0,69.0,30688.0,8.0,62.0,14149.0,12.0
+호텔 로즈 가든 신주쿠(Hotel Rose Garden Shinjuku),203522.0,72.0,28298.0,8.0,62.0,6501.0,7.0
+신주쿠 워싱턴 호텔(Shinjuku Washington Hotel),223478.0,74.0,26577.0,14.0,55.0,12428.0,1.0
+신주쿠 프린스 호텔(Shinjuku Prince Hotel),273514.0,70.0,26577.0,10.0,54.0,4876.0,10.0
+APA 호텔 신주쿠 교에마에 (APA Hotel Shinjuku Gyoemmae),191773.0,74.0,26577.0,14.0,57.0,6214.0,7.0
+APA Hotel Higashi Shinjuku Kabukicho Tower,186641.0,71.0,26290.0,13.0,59.0,4876.0,13.0
+호텔 썬루트 플라자 신주쿠(Hotel Sunroute Plaza Shinjuku),263441.0,69.0,26577.0,9.0,53.0,4876.0,9.0
+APA 호텔 & 리조트 니시신주쿠-고초메-에키 타워(APA Hotel & Resort Nishishinjuku-Gochome-Eki Tower),200051.0,82.0,28298.0,11.0,60.0,5067.0,5.0
+더 낫 도쿄 신주쿠(THE KNOT TOKYO Shinjuku),225126.0,79.0,28680.0,8.0,56.0,14531.0,3.0
+Tokyu Stay Shinjuku Eastside,264783.0,74.0,26672.0,13.0,64.0,6883.0,7.0
+HOTEL CEN,239306.0,66.0,26290.0,8.0,54.0,4876.0,8.0
+MIMARU TOKYO SHINJUKU WEST,341003.0,74.0,26577.0,14.0,58.0,12428.0,3.0
+APA 호텔 - 히가시신주쿠 가부키초 히가시(APA Hotel - Higashishinjuku Kabukicho Higashi),235608.0,72.0,26290.0,14.0,60.0,4876.0,14.0
+E 호텔 히가시 신주쿠(E Hotel Higashi Shinjuku),244050.0,72.0,26672.0,11.0,62.0,5067.0,5.0
+아파 호텔 히가시-신주쿠-에키마에(APA Hotel Higashi-Shinjuku-Ekimae),223678.0,73.0,26672.0,12.0,62.0,4876.0,16.0
+Via Inn Shinjuku,217924.0,76.0,28298.0,12.0,62.0,6214.0,12.0
+시타딘스 센트럴 신주쿠 도쿄 (Citadines Central Shinjuku Tokyo),234736.0,72.0,26577.0,12.0,57.0,4876.0,13.0
+프리미어 호텔 캐빈 신주쿠(Premier Hotel Cabin Shinjuku),254562.0,71.0,26290.0,13.0,59.0,4876.0,13.0
+Bespoke Hotel Shinjuku,278576.0,75.0,26672.0,14.0,62.0,6883.0,7.0
+호텔 그레이서리 신주쿠(Hotel Gracery Shinjuku),243320.0,80.0,26577.0,16.0,56.0,4876.0,12.0
+APA 호텔 신주쿠-가부키쵸 타워(APA Hotel Shinjuku-Kabukicho Tower),221350.0,67.0,30688.0,6.0,56.0,4876.0,12.0
+HOTEL KABUKI,282312.0,70.0,26577.0,10.0,54.0,4876.0,10.0
+Sotetsu Fresa Inn Higashi Shinjuku,213227.0,73.0,26672.0,12.0,66.0,14436.0,6.0
+도큐 스테이 신주쿠(Tokyu Stay Shinjuku),290935.0,83.0,27533.0,6.0,63.0,12428.0,3.0
+호텔 & 스파 제이-멕스 신주쿠 가부키초(성인 전용)(HOTEL & SPA J-MEX Shinjuku Kabukicho (Adult Only)),268199.0,74.0,26672.0,13.0,66.0,14436.0,8.0
+HOTEL MYSTAYS Nishi Shinjuku,244258.0,71.0,26577.0,11.0,55.0,4876.0,11.0
+HOTEL AMANEK Shinjuku Kabukicho,249146.0,71.0,26290.0,13.0,59.0,4876.0,13.0
+시타딘 신주쿠 도쿄(Citadines Shinjuku Tokyo),300703.0,76.0,28298.0,12.0,62.0,14149.0,10.0
+JR Kyushu Hotel Blossom Shinjuku (JR Kyushu Hotel Blossom Shinjuku),457657.0,69.0,26577.0,9.0,49.0,12428.0,4.0
+EAST ONE Higashishinjuku,729557.0,73.0,26672.0,12.0,66.0,14436.0,6.0
+Stay SAKURA Tokyo Shinjuku Hyakukura,247229.0,68.0,26290.0,10.0,56.0,4876.0,10.0
+HOTEL D-WAVE Shinjuku（Adult Only),285080.0,75.0,26577.0,15.0,59.0,4876.0,15.0
+Book Tea Bed SHINJUKU-GYOEN,310979.0,72.0,28298.0,8.0,58.0,14149.0,6.0
+Blue Empire Hotel,197632.0,65.0,26290.0,7.0,53.0,4876.0,7.0
+호텔 페리에(성인 전용)(HOTEL PERRIER (Adult Only)),314387.0,76.0,26672.0,15.0,64.0,14436.0,6.0
+호텔 안 신주쿠 가부키초 (성인 전용)(HOTEL AN Shinjuku Kabukicho (Adult Only)),383191.0,72.0,26577.0,12.0,56.0,4876.0,12.0
+호텔 더 호텔(성인 전용)(HOTEL THE HOTEL SHINJUKU (Adult Only)),289371.0,76.0,26672.0,15.0,61.0,4876.0,17.0
+Hotel Matsunoi,232526.0,63.0,26290.0,5.0,51.0,4876.0,5.0
+아파트 호텔 신주쿠(Apartment Hotel Shinjuku),187799.0,70.0,26577.0,10.0,54.0,4876.0,10.0
+니시테츠 인 신주쿠(Nishitetsu Inn Shinjuku),277577.0,73.0,26577.0,13.0,57.0,14531.0,7.0
+Tokyu Stay Yotsuya,412247.0,74.0,28298.0,8.0,60.0,6214.0,9.0
+호텔 리스텔 신주쿠(Hotel Listel Shinjuku),222339.0,84.0,28584.0,8.0,68.0,14436.0,7.0
+파크 하얏트 도쿄(Park Hyatt Tokyo),849119.0,73.0,26577.0,13.0,58.0,12428.0,3.0
+호텔 빌라 폰테인 도쿄-신주쿠(Hotel Villa Fontaine Tokyo-Shinjuku),200092.0,70.0,26290.0,12.0,58.0,4876.0,12.0
+신주쿠 시티 호텔 N.U.T.S 도쿄(Shinjuku City Hotel N.U.T.S Tokyo),221053.0,73.0,28298.0,9.0,59.0,14149.0,7.0
+Hotel Petit Bali Garden Shin-Okubo (Adult Only),203014.0,64.0,26290.0,6.0,52.0,4876.0,6.0
+카도야 호텔(Kadoya Hotel),304985.0,69.0,26577.0,9.0,48.0,12428.0,3.0
+Lion House,257384.0,74.0,26577.0,14.0,58.0,4876.0,14.0
+Hotel Balian Resort Higashi Shinjuku (Adult Only),266959.0,73.0,26290.0,15.0,61.0,4876.0,15.0
+로열 호텔 신오쿠보,150189.0,64.0,26290.0,6.0,52.0,4876.0,6.0
+비즈니스 호텔 야마시로(Business Hotel Yamashiro),93217.0,72.0,26290.0,14.0,59.0,4876.0,15.0
+粋,214441.0,72.0,26672.0,11.0,65.0,14436.0,6.0
+Hotel QUEEN ANNEX,223543.0,74.0,26577.0,14.0,56.0,14149.0,7.0
+Shinokubo guest house,437181.0,68.0,26290.0,10.0,56.0,4876.0,10.0
+더 신-오쿠보 인터내셔널 호텔,118900.0,64.0,26290.0,6.0,52.0,4876.0,6.0
+호텔 시에나(Hotel Siena),205938.0,74.0,26577.0,14.0,58.0,4876.0,14.0
+신주쿠 이스트 호텔 (Shinjuku East Hotel),105511.0,75.0,26672.0,14.0,65.0,14436.0,7.0
+호텔 타테시나(Hotel Tateshina),224414.0,77.0,26577.0,17.0,58.0,14149.0,9.0
+HOTEL LiVEMAX Shinjuku Kabukicho-Meijidori,217574.0,74.0,26672.0,13.0,64.0,14436.0,6.0
+Keio Presso Inn Shinjuku,243193.0,74.0,26577.0,14.0,58.0,12428.0,3.0
+HOTEL LiVEMAX Shinjuku EAST,281252.0,76.0,26672.0,15.0,61.0,14149.0,12.0
+레지던스 호텔 윌 신주쿠 (Residence Hotel Will Shinjuku),261676.0,98.0,31070.0,12.0,65.0,6214.0,14.0
+COCOSHUKU Shinjuku-Hanazono,292186.0,96.0,31357.0,8.0,60.0,14149.0,8.0
+Hotel BaliAn Resort Shinjuku Glamping,293783.0,77.0,26290.0,13.0,59.0,4876.0,13.0
+TOKYO E JOY INN（Okubo branch in Shinjuku）,277893.0,74.0,26290.0,10.0,56.0,4876.0,10.0
+Hotel Yuyukan - Vacation STAY 10008v,431836.0,78.0,26577.0,11.0,55.0,4876.0,11.0
+Hotel Rose Garden Shinjuku - Vacation STAY 72146v,373865.0,98.0,31357.0,5.0,57.0,14149.0,6.0
+SHINJUKU WARM HOUSE,339622.0,77.0,26290.0,13.0,59.0,4876.0,13.0
+634 Condo Shinjuku - Vacation STAY 01910v,491766.0,76.0,26290.0,12.0,58.0,4876.0,12.0
+HOTEL LiVEMAX Shinjuku Kabukicho,198291.0,77.0,26290.0,13.0,59.0,4876.0,13.0
+Hotel Koryukaku,203604.0,75.0,26290.0,11.0,57.0,4876.0,11.0
+SHINJUKU GLOBAL HOTEL,245431.0,71.0,26290.0,7.0,53.0,4876.0,7.0
+신주쿠 어반 호텔(Shinjuku Urban Hotel),375301.0,80.0,26672.0,15.0,65.0,14436.0,7.0
+하나비 호텔(Hanabi Hotel),288871.0,77.0,26290.0,13.0,59.0,4876.0,13.0
+호텔 선라이트 신주쿠(Hotel Sunlite Shinjuku),225015.0,81.0,26672.0,16.0,58.0,14149.0,9.0
+Hotel Rose Garden Shinjuku - Vacation STAY 72147v,290281.0,98.0,31357.0,5.0,57.0,14149.0,6.0
+토큐 스테이 니시 신주쿠(Tokyu Stay Nishi Shinjuku),245016.0,86.0,28680.0,9.0,60.0,14531.0,7.0
+Hotel Keihan Tokyo Yotsuya,205592.0,85.0,31070.0,9.0,61.0,6214.0,3.0
+GLOU Higashi Shinjuku,215376.0,78.0,26290.0,14.0,69.0,14436.0,9.0
+Daiwa Roynet Hotel Nishi-Shinjuku PREMIER,228961.0,103.0,31357.0,10.0,70.0,12428.0,5.0
+Super Hotel Shinjuku Kabukicho,221709.0,77.0,26290.0,13.0,66.0,14436.0,11.0
+634 Condo Shinjuku - Vacation STAY 01902v,598111.0,76.0,26290.0,12.0,58.0,4876.0,12.0
+ホテルパセラリビング東新宿,286843.0,77.0,26672.0,12.0,66.0,14436.0,6.0
+호텔 록스(Hotel Rocks),228311.0,95.0,31357.0,7.0,56.0,14149.0,7.0
+호텔 뉴 쇼헤이(Hotel New Shohei),518269.0,84.0,31070.0,8.0,50.0,6501.0,11.0
+Galois Hotel Shinokubo,247897.0,70.0,26290.0,6.0,53.0,4876.0,6.0
+오야도 고코치(Oyado Cocochi),214699.0,74.0,26290.0,10.0,60.0,13862.0,7.0
+Hotel&Co. Sagami,510743.0,76.0,26577.0,9.0,54.0,4876.0,9.0
+Tokyo shinjukutei Hotel Asahi gruop 東京新宿亭ホテル,202123.0,87.0,28680.0,11.0,59.0,14531.0,6.0
+Toyoko Inn Tokyo Shinjuku Kabukicho,194209.0,78.0,26290.0,14.0,68.0,14436.0,10.0
+Toyoko Inn Tokyo Shinjuku gyoemmae eki 3 ban Deguchi,178171.0,94.0,31357.0,6.0,58.0,14149.0,6.0
+Hotel Rose Garden Shinjuku - Vacation STAY 72163v,319969.0,98.0,31357.0,5.0,57.0,14149.0,6.0
+Hotel EL Shinjuku 6,181728.0,87.0,28680.0,11.0,59.0,14531.0,6.0
+베스트 호텔(Best Hotel),117504.0,72.0,26290.0,8.0,57.0,4876.0,8.0
+Miyanonoki guest house,448492.0,81.0,26672.0,16.0,60.0,14149.0,11.0
+Shinjuku Miyabi Residence - Vacation STAY 94836,416363.0,84.0,28298.0,12.0,57.0,14149.0,10.0
+ONSEN RYOKAN YUEN SHINJUKU,290944.0,77.0,26577.0,10.0,57.0,4876.0,10.0
+게이오 프라자 호텔 도쿄 프리미어 그랜드 (Keio Plaza Hotel Tokyo Premier Grand),385001.0,80.0,26577.0,13.0,48.0,12428.0,8.0
+HOTEL GROOVE SHINJUKU A PARKROYAL Hotel,353259.0,77.0,30688.0,8.0,61.0,4876.0,14.0
+Sakura Cross Hotel Shinjuku East Annex,345167.0,79.0,26577.0,12.0,56.0,9942.0,10.0
+Kimpton Shinjuku Tokyo an IHG Hotel,718380.0,79.0,26577.0,12.0,61.0,5067.0,6.0
+힐튼 도쿄 호텔(Hilton Tokyo Hotel),349157.0,83.0,26577.0,16.0,63.0,5067.0,8.0
+호텔 윙 인터내셔널 프리미엄 도쿄 요츠야 (Hotel Wing International Premium Tokyo Yotsuya),188690.0,78.0,26290.0,12.0,57.0,6214.0,8.0
+Oakwood Apartments Nishi-Shinjuku,183466.0,79.0,26577.0,12.0,61.0,5067.0,6.0
+게이오 플라자 호텔 도쿄(Keio Plaza Hotel Tokyo),382290.0,80.0,26577.0,13.0,48.0,12428.0,8.0
+오다큐 호텔 센츄리 서던 타워(Odakyu Hotel Century Southern Tower),327764.0,76.0,26577.0,9.0,52.0,4589.0,8.0
+Okubo Hotel Hawaii,141418.0,73.0,26290.0,9.0,58.0,4876.0,9.0
+City Hotel Dolphin,273628.0,73.0,26290.0,9.0,58.0,4876.0,9.0
+Nano North Shinjuku Apartment,280008.0,77.0,26290.0,13.0,57.0,14531.0,9.0
+도쿄 플라자 호텔 (Tokyo Plaza Hotel),227244.0,73.0,26290.0,9.0,55.0,4876.0,9.0
+인터내셔널 호텔 가부키초 (International Hotel Kabukicho),248907.0,78.0,26290.0,14.0,64.0,14436.0,10.0
+신 오쿠보 세키테이(Shin Okubo Sekitei),221796.0,73.0,26290.0,9.0,55.0,4876.0,9.0
+634 Condo Shinjuku - Vacation STAY 14798v,603462.0,76.0,26290.0,12.0,58.0,4876.0,12.0
+도모 호텔 (Domo Hotel),566206.0,78.0,26672.0,13.0,59.0,14149.0,12.0
+shinjuku lions house,328485.0,80.0,26672.0,15.0,60.0,14436.0,6.0
+FLOWER TERRACE Higashi Shinjuku,308395.0,77.0,26672.0,12.0,61.0,14436.0,7.0
+Kimpton Shinjuku Tokyo  an IHG Hotel,439138.0,79.0,26577.0,12.0,56.0,14531.0,5.0
+HOTEL GROOVE SHINJUKU  A PARKROYAL Hotel,232587.0,81.0,26577.0,14.0,61.0,14436.0,10.0
+yksi SAUNA & STAY,226955.0,79.0,26577.0,12.0,56.0,14531.0,5.0
+TOKYO ICHIBAN SHINJUKU,514625.0,77.0,26290.0,13.0,59.0,4876.0,13.0
+호텔 엠파이어 인 신주쿠(Hotel Empire in Shinjuku),169066.0,73.0,26290.0,9.0,55.0,4876.0,9.0
+season guest house,306174.0,79.0,26577.0,12.0,56.0,14531.0,5.0
+헌드레드 스테이 도쿄 신주쿠(Hundred Stay Tokyo Shinjuku),327002.0,88.0,26290.0,13.0,55.0,4876.0,9.0
+Hotel Shu,347217.0,102.0,13480.0,19.0,62.0,14149.0,15.0
+SHINJUKU WARM VILLA I,491656.0,85.0,26290.0,13.0,59.0,4876.0,13.0
+City Hotel Southern Cross,224213.0,81.0,26290.0,9.0,55.0,4876.0,9.0
+Pod Select Hotel Shinjuku,214781.0,83.0,23518.0,10.0,53.0,14149.0,9.0
+Hotel Yuyukan Center of Kabukicho Shinjuku,139900.0,85.0,27820.0,8.0,60.0,14436.0,9.0
+Shin-Okubo City Hotel,87610.0,81.0,26290.0,9.0,55.0,4876.0,9.0
+Hotel Yuyukan Center of Kabukicho  Shinjuku,377743.0,85.0,27820.0,8.0,60.0,14436.0,9.0

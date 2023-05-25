@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        .my-custom-input {
+            max-width: 25%;
+        }
+        .navbar-dark .navbar-toggler {
+            border-color: #003382;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='%23003B95'%3e%3cpath stroke='none' d='M0 0h30v30H0z'/%3e%3cpath d='M4 7h16M4 15h16M4 23h16'/%3e%3c/svg%3e");
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #fff;
+        }
+        .navbar-dark.fixed-top {
+            background-color: #003382 !important;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>I-Plane</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">I-PLAN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link"  href="/">Home</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#dashboard">DashBoard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/costpredict">Cost Predict Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/recommend">Recommend Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main class="flex-shrink-0">
+        <div class="container">
+            <h1>1</h1>
+            <h1 class="mt-5">항공 숙박 추천 서비스</h1>
+            <hr>
+
+            <p class="lead"><strong style="font-weight: bold; color: #003B95;">원하는 날짜</strong>와 <strong style="font-weight: bold; color: #003B95;">예산</strong>을 바탕으로 항공권, 숙박시설 및 교통까지 추천해드립니다</p>
+<!--            <p>설명하는 곳 2 <a href="/docs/5.0/examples/sticky-footer/">Link</a> 링크.</p>-->
+        </div>
+
+        {% if destination == "목적지 선택하기" %}
+        <div class="container">
+            <p>목적지를 입력하지 않았습니다. "다시하기"를 눌러 다시 입력해주세요.</p>
+        </div>
+
+        {% elif budget == "ex) 500000" %}
+        <div class="container">
+            <p>예산은 숫자만 입력해야합니다. "다시하기"를 눌러 다시 입력해주세요.</p>
+        </div>
+
+        {% elif error_code %}
+        <div class="container">
+            <p>입력값에 오류가 있습니다. "다시하기"를 눌러 다시 입력해주세요.</p>
+        </div>
+
+        {% else %}
+        <div class="container">
+            <br>
+            <p>예측 결과 값입니다.</p>
+            <p>출발 날짜 : {{ start_date }}</p>
+            <p>도착 날짜 : {{ end_date }}</p>
+<!--            <p>목적지 : {{ destination }}</p>-->
+            <p>예상비용 : {{ budget }}</p>
+        </div>
+
+        <div class="container">
+            <table class="table" style="table-layout: fixed" width="100%">
+                <thead>
+                    <tr>
+                        <th scope="col" width="5%">#</th>
+                        <th scope="col" width="13%">항공권(출국)</th>
+                        <th scope="col" width="12%">출발시간</th>
+                        <th scope="col" width="10%">가격</th>
+                        <th scope="col" width="13%">항공권(입국)</th>
+                        <th scope="col" width="12%">출발시간</th>
+                        <th scope="col" width="10%">가격</th>
+                        <th scope="col" width="20%">호텔이름</th>
+                        <th scope="col" width="8%">별점</th>
+                        <th scope="col" width="13%">걷는시간(분)</th>
+                        <th scope="col" width="13%">예상 도착시간</th>
+                        <th scope="col" width="10%">총비용</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for i in range(10) %}
+                    <tr>
+                        <th scope="row">{{ i+1 }}</th>
+                        <td>{{ best_df['Airline'][i] }}</td>
+                        <td>{{ best_df['Departure time'][i] }}</td>
+                        <td>{{ best_df['Price'][i] }}</td>
+                        <td>{{ best_df['Airline_return'][i] }}</td>
+                        <td>{{ best_df['Departure time_return'][i] }}</td>
+                        <td>{{ best_df['Price_return'][i] }}</td>
+                        <td style="text-overflow:ellipsis; overflow:hidden; white-space:nowrap; ">
+                            <nobr>{{ best_df['Hotel Name'][i] }}</nobr>
+                        </td>
+                        <td>{{ best_df['Hotel Score'][i] }}</td>
+                        <td>{{ best_df['walk_time'][i] }}</td>
+                        <td>{{ best_df['arrival_time'][i] }}</td>
+                        <td>{{ best_df['total_cost'][i] }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        {% endif %}
+
+        <br>
+
+        <form action="/recommend", method="GET">
+            <div class="container">
+                <button type="submit" class="btn btn-outline-dark">다시하기</button>
+            </div>
+        </form>
+
+        <br><br><br>
+    </main>
+
+</body>
+</html>
